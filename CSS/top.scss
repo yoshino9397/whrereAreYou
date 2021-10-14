@@ -1,0 +1,57 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+a{
+  text-decoration: none;
+}
+h1 {
+  position: relative;
+  margin: 1.5% 0 0 40%;
+  padding: 0%;
+  color: rgb(228, 227, 227);
+  font-family: "Zhi Mang Xing";
+  font-size: 14em;
+  letter-spacing: -0.2em;
+  font-weight: lighter;
+  writing-mode: vertical-rl;
+}
+.poleoff {
+  position: absolute;
+  margin: -15% 0 0 28%;
+  padding: 0%;
+  z-index: 1;
+}
+.poleon {
+  position: absolute;
+  margin: -15% 0 0 28%;
+  padding: 0%;
+  z-index: 2;
+}
+
+.miru {
+  position: relative;
+  margin: 10% 0 0 42%;
+  padding: 0%;
+  z-index: 1;
+}
+.waku {
+  position: absolute;
+  margin: 8% 0 0 -16.5%;
+  padding: 0%;
+  opacity: 0;
+  z-index: 2;
+  &:hover {
+    opacity: 1;
+  }
+}
+footer p{
+  color: white;
+  font-family: 'Caveat';
+  font-size: 1.5em;
+  position: relative;
+  margin: 8% 0 0 -6%;
+  padding: 0%;
+  text-align: center;
+}
