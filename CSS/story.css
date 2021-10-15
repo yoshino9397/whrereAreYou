@@ -3,4 +3,59 @@ body {
   padding: 0%;
   background-color: black;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  margin: 0% 0 0 16.5%;
+  padding: 0;
+  color: black;
+  font-family: "Zhi Mang Xing";
+  font-size: 8em;
+  letter-spacing: -.2em;
+  font-weight: lighter;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  z-index: 2;
+}
+
+.light {
+  position: fixed;
+  top: 0%;
+  margin: -35% 0 0 17%;
+  padding: 0%;
+  z-index: 5;
+  opacity: 70%;
+  -webkit-filter: sepia(20%);
+          filter: sepia(20%);
+}
+
+.paper {
+  margin: 0% 0 0 17%;
+  padding: 0%;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu1 {
+  position: absolute;
+  margin: -13% 0 0 26%;
+  padding: 0% -39% 0 0;
+  z-index: 110;
+  height: 10%;
+  width: 70%;
+}
+
+.menu2 {
+  position: absolute;
+  margin: -6.5% 0 0 28%;
+  padding: 0% -39% 0 0;
+  z-index: 110;
+  height: 10%;
+  width: 70%;
+}
 /*# sourceMappingURL=story.css.map */
