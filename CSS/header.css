@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=header.css.map */
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+.bgm {
+  margin: .5% 0 0 12%;
+  padding: 0%;
+  position: relative;
+}
+
+.bgm .BGM {
+  margin: 0% 1% 0 0;
+}
+
+.line {
+  margin: -1.5% 0 0 0;
+  padding: 0%;
+  position: relative;
+}
+/*# sourceMappingURL=header.css.map */

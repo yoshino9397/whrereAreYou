@@ -13,14 +13,8 @@ function header() {
 window.addEventListener("DOMContentLoaded", function () {
   var vid = document.getElementById("music");
   vid.loop = true;
+  vid.volume = 0.2;
   vid.load();
-
-  const audioElement = document.querySelector("music");
-
-  audioElement.addEventListener("loadeddata", (e) => {
-    audioElement.muted = true;
-    audioElement.autoplay = true;
-  });
 });
 //////////////----BGM ONOFF------//////////////////////////
 var music = document.getElementById("music");
@@ -31,6 +25,22 @@ function enableMute() {
 
 function disableMute() {
   music.muted = false;
+  music.play();
 }
 
+////////////-----BGM imageChange--------///////////////////
+var newImg = "../IMAGE/bgmOffOn.png"
+var off1= "../IMAGE/bgmOnoff.png"
+function henkou1(){
+  document.getElementById("bgmon").src = newImg;
+  document.getElementById("bgmoff").src = off1;
+
+}
+var newImg2 = "../IMAGE/bgmOffoff.png"
+var off2 = "../IMAGE/bgmOnon.png"
+function henkou2(){
+  document.getElementById("bgmoff").src = newImg2;
+  document.getElementById("bgmon").src = off2;
+  
+}
 //<script>header();</script>
