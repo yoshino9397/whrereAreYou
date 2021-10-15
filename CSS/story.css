@@ -15,7 +15,7 @@ h1 {
   color: black;
   font-family: "Zhi Mang Xing";
   font-size: 8em;
-  letter-spacing: -.2em;
+  letter-spacing: -0.2em;
   font-weight: lighter;
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
@@ -41,21 +41,45 @@ h1 {
   z-index: 1;
 }
 
-.menu1 {
+.top {
   position: absolute;
-  margin: -13% 0 0 26%;
-  padding: 0% -39% 0 0;
-  z-index: 110;
-  height: 10%;
-  width: 70%;
+  margin: -13% 0 0 25%;
+  padding: 0%;
+  z-index: 200;
 }
 
-.menu2 {
+.chara {
   position: absolute;
-  margin: -6.5% 0 0 28%;
-  padding: 0% -39% 0 0;
+  margin: -13% 0 0 45%;
+  padding: 0% 10% 0 0;
   z-index: 110;
-  height: 10%;
-  width: 70%;
+}
+
+.gallery {
+  position: absolute;
+  margin: -13% 0 0 65.5%;
+  padding: 0%;
+  z-index: 110;
+}
+
+.story {
+  position: absolute;
+  margin: -5.5% 0 0 27%;
+  padding: 0%;
+  z-index: 110;
+}
+
+.play {
+  position: absolute;
+  margin: -5.5% 0 0 47%;
+  padding: 0% 10% 0 0;
+  z-index: 110;
+}
+
+.special {
+  position: absolute;
+  margin: -5.5% 0 0 67%;
+  padding: 0%;
+  z-index: 110;
 }
 /*# sourceMappingURL=story.css.map */

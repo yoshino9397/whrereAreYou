@@ -1,9 +1,9 @@
-body{
+body {
   margin: 0%;
   padding: 0%;
   background-color: black;
 }
-a{
+a {
   text-decoration: none;
 }
 h1 {
@@ -13,40 +13,61 @@ h1 {
   color: rgb(0, 0, 0);
   font-family: "Zhi Mang Xing";
   font-size: 8em;
-  letter-spacing: -.2em;
+  letter-spacing: -0.2em;
   font-weight: lighter;
   writing-mode: vertical-lr;
   z-index: 2;
 }
-.light{
-  position:fixed;
-  top:0%;
+.light {
+  position: fixed;
+  top: 0%;
   margin: -35% 0 0 17%;
   padding: 0%;
   z-index: 5;
   opacity: 70%;
   filter: sepia(20%);
 }
-.paper{
+.paper {
   margin: 0% 0 0 17%;
   padding: 0%;
   position: absolute;
   z-index: 1;
 }
 
-.menu1{
+.top {
   position: absolute;
-  margin: -13% 0 0 26%;
-  padding: 0% -39% 0 0;
-  z-index: 110;
-  height: 10%;
-  width: 70%;
+  margin: -13% 0 0 25%;
+  padding: 0%;
+  z-index: 200;
 }
-.menu2{
+
+.chara {
   position: absolute;
-  margin: -6.5% 0 0 28%;
-  padding: 0% -39% 0 0;
+  margin: -13% 0 0 45%;
+  padding: 0% 10% 0 0;
   z-index: 110;
-  height: 10%;
-  width: 70%;
+}
+.gallery {
+  position: absolute;
+  margin: -13% 0 0 65.5%;
+  padding: 0%;
+  z-index: 110;
+}
+.story {
+  position: absolute;
+  margin: -5.5% 0 0 27%;
+  padding: 0%;
+  z-index: 110;
+}
+.play {
+  position: absolute;
+  margin: -5.5% 0 0 47%;
+  padding: 0% 10% 0 0;
+  z-index: 110;
+}
+.special {
+  position: absolute;
+  margin: -5.5% 0 0 67%;
+  padding: 0%;
+  z-index: 110;
 }
