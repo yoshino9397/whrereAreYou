@@ -11,15 +11,15 @@ a {
 h1 {
   position: relative;
   margin: 1.5% 0 0 40%;
-  padding: 0%;
+  padding: 0;
   color: #e4e3e3;
   font-family: "Zhi Mang Xing";
   font-size: 14em;
-  letter-spacing: -0.2em;
+  letter-spacing: -.2em;
   font-weight: lighter;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
 }
 
 .poleoff {
