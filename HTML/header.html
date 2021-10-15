@@ -5,30 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/header.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>header</title>
   </head>
   <body>
     <header class="header">
-      <audio
-        id="music"
-        type="audio/mp3"
-        src="../audio/tree-cricket-bush-1.mp3"
-        controls
-      ></audio>
-      <img class="BGM" src="../IMAGE/BGM.png" />
-      <img class="bgmon" src="../IMAGE/bgmOnon.png" />
-      <img
-        class="bgmonClick"
-        onclick=disableMute();
-        src="../IMAGE/bgmOffOn.png"
-      />
-      <img class="bgmSlash" src="../IMAGE/bgmSlash.png" />
-      <img class="bgmoff" src="../IMAGE/bgmOnoff.png" />
-      <img
-        class="bgmoffClick"
-        onclick=enableMute();
-        src="../IMAGE/bgmOffoff.png"
-      />
+      <div class="bgm">
+        <audio
+          id="music"
+          type="audio/mp3"
+          src="../audio/tree-cricket-bush-1.mp3"
+        ></audio>
+        <img class="BGM" src="../IMAGE/BGM.png" width="7%" />
+        <img
+          id="bgmon"
+          class="bgmon"
+          width="3.7%"
+          src="../IMAGE/bgmOnon.png"
+          onclick="disableMute();henkou1();"
+        />
+        <img class="bgmSlash" src="../IMAGE/bgmSlash.png" width="1.5%" />
+        <img
+          id="bgmoff"
+          class="bgmoff"
+          width="5%"
+          src="../IMAGE/bgmOnoff.png"
+          onclick="enableMute();henkou2();"
+        />
+      </div>
+      <img class="line" src="../IMAGE/whiteLine.png" width="100%" />
     </header>
     <script src="../JS/header.js"></script>
   </body>
