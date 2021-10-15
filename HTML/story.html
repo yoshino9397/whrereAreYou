@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/story.css" />
+    <link rel="stylesheet" href="../CSS/header.css" />
+    <title>Story</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="bgm">
+        <audio
+          id="music"
+          type="audio/mp3"
+          src="../audio/tree-cricket-bush-1.mp3"
+        ></audio>
+        <img class="BGM" src="../IMAGE/BGM.png" width="7%" />
+        <img
+          id="bgmon"
+          class="bgmon"
+          width="3.7%"
+          src="../IMAGE/bgmOnon.png"
+          onclick="disableMute();henkou1();"
+        />
+        <img class="bgmSlash" src="../IMAGE/bgmSlash.png" width="1.5%" />
+        <img
+          id="bgmoff"
+          class="bgmoff"
+          width="5%"
+          src="../IMAGE/bgmOnoff.png"
+          onclick="enableMute();henkou2();"
+        />
+      </div>
+      <img class="line" src="../IMAGE/whiteLine.png" width="100%" />
+    </header>
+
+    <img class="light" src="../IMAGE/light.png" />
+    <img class="paper" src="../IMAGE/paper.png" />
+    <h1>问灵</h1>
+    <div class="menu" style="background-color: aliceblue">
+      <a href="#"
+        ><img id="top" class="top" src="../IMAGE/top.png" width="15%"
+      /></a>
+      <a href="#"
+        ><img id="chara" class="chara" src="../IMAGE/chara.png" width="15%"
+      /></a>
+      <a href="#"
+        ><img
+          id="gallery"
+          class="gallery"
+          src="../IMAGE/gallery.png"
+          width="15%"
+      /></a>
+      <a href="#"
+        ><img id="story" class="story" src="../IMAGE/story.png" width="15%"
+      /></a>
+      <a href="#"
+        ><img id="play" class="play" src="../IMAGE/play.png" width="15%"
+      /></a>
+      <a href="#"
+        ><img
+          id="special"
+          class="special"
+          src="../IMAGE/special.png"
+          width="15%"
+      /></a>
+    </div>
+
+    <script src="../JS/header.js"></script>
+  </body>
+</html>
