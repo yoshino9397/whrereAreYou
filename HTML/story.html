@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/story.css" />
+    <!----------------------Common part------------------------------------->
     <link rel="stylesheet" href="../CSS/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap"
+      rel="stylesheet"
+    />
+    <!----------------------------//------------------------------------------->
     <title>Story</title>
   </head>
   <body>
+    <!-------------------------Common part------------------------->
     <header class="header">
       <div class="bgm">
         <audio
@@ -35,39 +44,45 @@
       </div>
       <img class="line" src="../IMAGE/whiteLine.png" width="100%" />
     </header>
-
-    <img class="light" src="../IMAGE/light.png" />
-    <img class="paper" src="../IMAGE/paper.png" />
+    <img class="light rellax" src="../IMAGE/light.png" width="70%" data-rellax-speed="-16.5"/>
+    <img class="paper" src="../IMAGE/paper.png" width="70%" />
     <h1>问灵</h1>
-    <div class="menu" style="background-color: aliceblue">
+    <div class="menu1">
       <a href="#"
-        ><img id="top" class="top" src="../IMAGE/top.png" width="15%"
+        ><img id="top" class="top" src="../IMAGE/top.png" width="25%"
       /></a>
       <a href="#"
-        ><img id="chara" class="chara" src="../IMAGE/chara.png" width="15%"
+        ><img id="chara" class="chara" src="../IMAGE/chara.png" width="25%"
       /></a>
       <a href="#"
         ><img
           id="gallery"
           class="gallery"
           src="../IMAGE/gallery.png"
-          width="15%"
+          width="25%"
+      /></a>
+      </div>
+      <div class="menu2">
+      <a href="#"
+        ><img id="story" class="story" src="../IMAGE/story.png" width="28%"
       /></a>
       <a href="#"
-        ><img id="story" class="story" src="../IMAGE/story.png" width="15%"
-      /></a>
-      <a href="#"
-        ><img id="play" class="play" src="../IMAGE/play.png" width="15%"
+        ><img id="play" class="play" src="../IMAGE/play.png" width="28%"
       /></a>
       <a href="#"
         ><img
           id="special"
           class="special"
           src="../IMAGE/special.png"
-          width="15%"
+          width="26%"
       /></a>
     </div>
 
     <script src="../JS/header.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+    <!---------------------------------//------------------------------------------->
   </body>
 </html>
