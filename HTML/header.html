@@ -9,9 +9,26 @@
   </head>
   <body>
     <header class="header">
-
-
-      
+      <audio
+        id="music"
+        type="audio/mp3"
+        src="../audio/tree-cricket-bush-1.mp3"
+        controls
+      ></audio>
+      <img class="BGM" src="../IMAGE/BGM.png" />
+      <img class="bgmon" src="../IMAGE/bgmOnon.png" />
+      <img
+        class="bgmonClick"
+        onclick=disableMute();
+        src="../IMAGE/bgmOffOn.png"
+      />
+      <img class="bgmSlash" src="../IMAGE/bgmSlash.png" />
+      <img class="bgmoff" src="../IMAGE/bgmOnoff.png" />
+      <img
+        class="bgmoffClick"
+        onclick=enableMute();
+        src="../IMAGE/bgmOffoff.png"
+      />
     </header>
     <script src="../JS/header.js"></script>
   </body>
