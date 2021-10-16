@@ -6,9 +6,19 @@ body {
 a {
   text-decoration: none;
 }
+.black{
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  margin: -7% 0 0 15%;
+  padding: 0%;
+  width: 75%;
+  height: 10.6%;
+  z-index: 100;
+}
+
 h1 {
   position: relative;
-  margin: 0% 0 0 16.5%;
+  margin: -1% 0 0 18%;
   padding: 0;
   color: rgb(0, 0, 0);
   font-family: "Zhi Mang Xing";
@@ -21,14 +31,15 @@ h1 {
 .light {
   position: fixed;
   top: 0%;
-  margin: -35% 0 0 17%;
+  margin: -35% 0 0 14.5%;
   padding: 0%;
   z-index: 5;
   opacity: 70%;
-  filter: sepia(20%);
+  filter: sepia(70%);
+
 }
 .paper {
-  margin: 0% 0 0 17%;
+  margin: -1% 0 0 17%;
   padding: 0%;
   position: absolute;
   z-index: 1;
@@ -36,38 +47,99 @@ h1 {
 
 .top {
   position: absolute;
-  margin: -13% 0 0 25%;
+  margin: -13.5% 0 0 29%;
   padding: 0%;
-  z-index: 200;
+  z-index: 100;
+}
+.topAka {
+  position: absolute;
+  margin: -12.5% 0 0 28%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .chara {
   position: absolute;
-  margin: -13% 0 0 45%;
+  margin: -13.5% 0 0 47%;
   padding: 0% 10% 0 0;
   z-index: 110;
+}
+.charaAka {
+  position: absolute;
+  margin: -12.5% 0 0 47%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }
 .gallery {
   position: absolute;
-  margin: -13% 0 0 65.5%;
+  margin: -13.7% 0 0 65%;
   padding: 0%;
   z-index: 110;
+}
+.galleryAka{
+  position: absolute;
+  margin: -12.5% 0 0 65%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }
 .story {
   position: absolute;
-  margin: -5.5% 0 0 27%;
+  margin: -8.5% 0 0 33%;
   padding: 0%;
   z-index: 110;
+}
+.storyAka{
+  position: absolute;
+  margin: -7.5% 0 0 33%;
+  padding: 0%;
+  z-index: 210;
 }
 .play {
   position: absolute;
-  margin: -5.5% 0 0 47%;
+  margin: -8.5% 0 0 52%;
   padding: 0% 10% 0 0;
   z-index: 110;
 }
+.playAka{
+  position: absolute;
+  margin: -7.5% 0 0 52%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
 .special {
   position: absolute;
-  margin: -5.5% 0 0 67%;
+  margin: -8.5% 0 0 69%;
   padding: 0%;
   z-index: 110;
+}
+.specialAka{
+  position: absolute;
+  margin: -7.5% 0 0 70%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }
