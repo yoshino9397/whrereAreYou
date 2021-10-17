@@ -36,23 +36,21 @@ h1 {
 .light {
   position: fixed;
   top: 0%;
-  margin: -20% 0 0 14.5%;
+  margin: -30% 0 0 14.5%;
   padding: 0%;
-  z-index: 5;
+  z-index: 8;
   opacity: 80%;
-  -webkit-filter: sepia(80%);
-          filter: sepia(80%);
+  -webkit-filter: sepia(70%);
+          filter: sepia(70%);
 }
 
-.light1 {
+.blackNew {
   position: fixed;
   top: 0%;
-  margin: -20% 0 0 14.5%;
+  margin: -30% 0 0 14.5%;
   padding: 0%;
-  z-index: 10;
-  opacity: 10%;
-  -webkit-filter: sepia(30%);
-          filter: sepia(30%);
+  z-index: 7;
+  opacity: 80%;
 }
 
 .paper {
@@ -60,7 +58,7 @@ h1 {
   padding: 0%;
   position: absolute;
   z-index: 1;
-  height: 250%;
+  height: 180%;
 }
 
 .top {
@@ -234,18 +232,18 @@ h1 {
 
 .arasujiHide img {
   position: absolute;
-  margin: 7% 0 0 37%;
+  margin: 7% 0 0 40%;
   padding: 0%;
   z-index: 8;
   width: 42%;
 }
 
 .nikkiHide {
-  display: none;
+  opacity: 0;
 }
 
 .nikkiHide p {
-  background-image: url(../IMAGE/arasujiUnder.png);
+  background-image: url(../IMAGE/nikkiUnder.png);
   background-repeat: no-repeat;
   background-size: contain;
   color: rgba(240, 248, 255, 0);
@@ -258,9 +256,9 @@ h1 {
 
 .nikkiHide img {
   position: absolute;
-  margin: 7% 0 0 37%;
+  margin: 6% 0 0 40%;
   padding: 0%;
   z-index: 8;
-  width: 42%;
+  width: 38%;
 }
 /*# sourceMappingURL=story.css.map */
