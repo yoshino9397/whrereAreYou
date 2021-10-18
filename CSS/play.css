@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   margin: 0%;
   padding: 0%;
@@ -261,59 +260,5 @@ h1 {
   padding: 0%;
   z-index: 8;
   width: 38%;
-}
-
-/*========= レイアウトのためのCSS ===============*/
-.ikanaide p {
-  text-align: center;
-  padding: 50px 0;
-  font-size: 1.3rem;
-  letter-spacing: 0.2em;
-  color: #a70202;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-}
-
-/*==================================================
-ランダムにテキスト出現する
-===================================*/
-.TextRandomAnime span {
-  opacity: 0;
-}
-
-.TextRandomAnime.appearRandomtext span {
-  -webkit-animation: text_randomanime_on 2s ease-out;
-          animation: text_randomanime_on 2s ease-out;
-}
-
-@-webkit-keyframes text_randomanime_on {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes text_randomanime_on {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.TextRandomAnime.appearRandomtext span:nth-child(2n) {
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  /* spanのついた2の倍数の文字列の変化を0.5秒遅らせる*/
-}
-
-.TextRandomAnime.appearRandomtext span:nth-child(2n+1) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  /* spanのついた3の倍数＋1の文字列の変化を0.15秒遅らせる*/
 }
 /*# sourceMappingURL=play.css.map */

@@ -1,10 +1,9 @@
 // TextRandomAnimeにappearRandomtextというクラス名を付ける定義
 function TextRandomAnimeControl() {
   $('.TextRandomAnime').each(function () {
-    var elemPos = $(this).offset().top - 50;
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
+    if (scroll == windowHeight) {
       $(this).addClass("appearRandomtext");
 
     } else {
