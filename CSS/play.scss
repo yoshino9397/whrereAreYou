@@ -1,0 +1,267 @@
+//////------------------Common-------------------------////////////////
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.black {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  margin: -7% 0 0 15%;
+  padding: 0%;
+  width: 75%;
+  height: 10.6%;
+  z-index: 100;
+}
+
+h1 {
+  position: relative;
+  margin: -1% 0 0 18%;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-family: "Zhi Mang Xing";
+  font-size: 8em;
+  letter-spacing: -0.2em;
+  font-weight: lighter;
+  writing-mode: vertical-lr;
+  z-index: 2;
+}
+.light {
+  position: fixed;
+  top: 0%;
+  margin: -30% 0 0 14.5%;
+  padding: 0%;
+  z-index: 8;
+  opacity: 80%;
+  filter: sepia(70%);
+}
+.blackNew {
+  position: fixed;
+  top: 0%;
+  margin: -30% 0 0 14.5%;
+  padding: 0%;
+  z-index: 10;
+  opacity: 80%;
+}
+
+.paper {
+  margin: -1% 0 0 17%;
+  padding: 0%;
+  position: absolute;
+  z-index: 1;
+  height: 180%;
+}
+
+.top {
+  position: absolute;
+  margin: -13.5% 0 0 29%;
+  padding: 0%;
+  z-index: 100;
+}
+.topAka {
+  position: absolute;
+  margin: -12.5% 0 0 28%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.chara {
+  position: absolute;
+  margin: -13.5% 0 0 47%;
+  padding: 0% 10% 0 0;
+  z-index: 110;
+}
+.charaAka {
+  position: absolute;
+  margin: -12.5% 0 0 47%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+.gallery {
+  position: absolute;
+  margin: -13.7% 0 0 65%;
+  padding: 0%;
+  z-index: 110;
+}
+.galleryAka {
+  position: absolute;
+  margin: -12.5% 0 0 65%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+.story {
+  position: absolute;
+  margin: -8.5% 0 0 33%;
+  padding: 0%;
+  z-index: 110;
+}
+.storyAka {
+  position: absolute;
+  margin: -7.5% 0 0 33%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+.play {
+  position: absolute;
+  margin: -8.5% 0 0 52%;
+  padding: 0% 10% 0 0;
+  z-index: 110;
+}
+.playAka {
+  position: absolute;
+  margin: -7.5% 0 0 52%;
+  padding: 0%;
+  z-index: 210;
+}
+.special {
+  position: absolute;
+  margin: -8.5% 0 0 69%;
+  padding: 0%;
+  z-index: 110;
+}
+.specialAka {
+  position: absolute;
+  margin: -7.5% 0 0 70%;
+  padding: 0%;
+  z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+//////////--------------------------------------------/////////////
+
+.arasuji {
+  background-image: url(../IMAGE/arasujiBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 3.5em;
+  padding: 0% 0 0% 0;
+  margin: 2% 0 0 23%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-image: url(../IMAGE/arasujiAfter.png);
+  }
+}
+.nikki {
+  background-image: url(../IMAGE/nikkiBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.5em;
+  padding: 0%;
+  margin: 8% 0 0 23%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-image: url(../IMAGE/nikkiAfter.png);
+  }
+}
+.arasujiHide {
+  p {
+    background-image: url(../IMAGE/arasujiUnder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(240, 248, 255, 0);
+    font-size: 5em;
+    padding: 0%;
+    margin: -3% 0 0 50%;
+    position: absolute;
+    z-index: 8;
+  }
+  img {
+    position: absolute;
+    margin: 7% 0 0 40%;
+    padding: 0%;
+    z-index: 8;
+    width: 42%;
+  }
+}
+.nikkiHide {
+  opacity: 0;
+  p {
+    background-image: url(../IMAGE/nikkiUnder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(240, 248, 255, 0);
+    font-size: 5em;
+    padding: 0%;
+    margin: -3% 0 0 50%;
+    position: absolute;
+    z-index: 8;
+  }
+  img {
+    position: absolute;
+    margin: 6% 0 0 40%;
+    padding: 0%;
+    z-index: 8;
+    width: 38%;
+  }
+}
+
+/*========= レイアウトのためのCSS ===============*/
+.ikanaide{
+  p {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.2em;
+  color: rgb(167, 2, 2);
+  writing-mode: vertical-rl;
+}
+}
+/*==================================================
+ランダムにテキスト出現する
+===================================*/
+.TextRandomAnime span {
+  opacity: 0;
+}
+.TextRandomAnime.appearRandomtext span {
+  animation: text_randomanime_on 2s ease-out;
+}
+
+@keyframes text_randomanime_on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.TextRandomAnime.appearRandomtext span:nth-child(2n) {
+  animation-delay: .5s; /* spanのついた2の倍数の文字列の変化を0.5秒遅らせる*/
+}
+.TextRandomAnime.appearRandomtext span:nth-child(2n+1) {
+  animation-delay: 1s; /* spanのついた3の倍数＋1の文字列の変化を0.15秒遅らせる*/
+}
