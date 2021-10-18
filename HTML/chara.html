@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../CSS/story.css" />
+    <!----------------------Common part------------------------------------->
+    <link rel="stylesheet" href="../CSS/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap"
+      rel="stylesheet"
+    />
+    <!----------------------------//------------------------------------------->
+    <title>Story</title>
+  </head>
+  <body>
+    <!-------------------------Common part------------------------->
+    <header class="header">
+      <div class="bgm">
+        <audio
+          id="music"
+          type="audio/mp3"
+          src="../audio/tree-cricket-bush-1.mp3"
+        ></audio>
+        <img class="BGM" src="../IMAGE/BGM.png" width="7%" />
+        <img
+          id="bgmon"
+          class="bgmon"
+          width="3.7%"
+          src="../IMAGE/bgmOnon.png"
+          onclick="disableMute();henkou1();"
+        />
+        <img class="bgmSlash" src="../IMAGE/bgmSlash.png" width="1.5%" />
+        <img
+          id="bgmoff"
+          class="bgmoff"
+          width="5%"
+          src="../IMAGE/bgmOnoff.png"
+          onclick="enableMute();henkou2();"
+        />
+      </div>
+      <img class="line" src="../IMAGE/whiteLine.png" width="100%" />
+    </header>
+    <div class="black"></div>
+    <img
+      class="light rellax"
+      src="../IMAGE/lightNew.png"
+      width="75%"
+      data-rellax-speed="-13"
+    />
+    <img
+      class="blackNew rellax"
+      src="../IMAGE/blackNew.png"
+      width="75%"
+      data-rellax-speed="-13"
+    />
+    <img class="paper" src="../IMAGE/paper.png" width="70%" />
+    <h1>问灵</h1>
+    <a href="#"
+      ><img id="top" class="top" src="../IMAGE/top.png" width="13%" />
+      <img class="topAka" src="../IMAGE/topAka.png" width="14%" />
+    </a>
+
+    <a href="#"
+      ><img id="chara" class="chara" src="../IMAGE/chara.png" width="14%" />
+      <img class="charaAka" src="../IMAGE/charaAka.png" width="14%"
+    /></a>
+    <a href="#"
+      ><img
+        id="gallery"
+        class="gallery"
+        src="../IMAGE/gallery.png"
+        width="15%"
+        onmouseover="hoge();"
+        onmouseout="foo();" />
+      <img class="galleryAka" src="../IMAGE/gallaryAka.png" width="15%"
+    /></a>
+
+    <a href="#"
+      ><img id="story" class="story" src="../IMAGE/story.png" width="15%" /><img
+        class="storyAka"
+        src="../IMAGE/storyAka.png"
+        width="15%"
+    /></a>
+    <a href="#"
+      ><img id="play" class="play" src="../IMAGE/play.png" width="16%" /><img
+        class="playAka"
+        src="../IMAGE/storyAka.png"
+        width="15%"
+    /></a>
+    <a href="#"
+      ><img
+        id="special"
+        class="special"
+        src="../IMAGE/special.png"
+        width="15%" /><img
+        class="specialAka"
+        src="../IMAGE/specialAka.png"
+        width="15%"
+    /></a>
+    <!----------------------------//------------------------------------------->
+    <p
+      id="arasuji"
+      class="arasuji rellax"
+      data-rellax-speed="-8"
+      onclick="imgchangeArasuji();"
+    >
+      あらすじ
+    </p>
+    <p
+      id="nikki"
+      class="nikki rellax"
+      data-rellax-speed="-8"
+      onclick="imgchangeNikki();"
+    >
+      にっき
+    </p>
+    <div class="arasujiHide" id="arasujiHide">
+      <p>あらすじ</p>
+      <img src="../IMAGE/arasujiMain.png" />
+    </div>
+    <div class="nikkiHide" id="nikkiHide">
+      <p>にっき</p>
+      <img src="../IMAGE/nikkiMain.png" />
+    </div>
+
+    <!-------------------------Common part------------------------->
+    <script src="../JS/header.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+    <!---------------------------------//------------------------------------------->
+    <script src="../JS/story.js"></script>
+  </body>
+</html>
