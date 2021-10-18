@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="../CSS/chara.css" />
+    <link rel="stylesheet" href="../CSS/play.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-1/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-1/css/8-1.css"
+    />
     <!----------------------Common part------------------------------------->
     <link rel="stylesheet" href="../CSS/header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,10 +25,9 @@
       rel="stylesheet"
     />
     <!----------------------------//------------------------------------------->
-    <title>Chara</title>
+    <title>Play</title>
   </head>
   <body>
-    <!-------------------------Common part------------------------->
     <header class="header">
       <div class="bgm">
         <audio
@@ -66,7 +75,7 @@
     </a>
 
     <a href="../HTML/chara.html"
-      ><img id="chara" class="chara" src="../IMAGE/chara.png" width="14%" />
+      ><img id="chara" class="chara" src="../IMAGE/chara.png" width="24%" />
       <img class="charaAka" src="../IMAGE/charaAka.png" width="14%"
     /></a>
     <a href="#"
@@ -85,7 +94,7 @@
         width="15%"
     /></a>
     <a href="../HTML/play.html"
-      ><img id="play" class="play" src="../IMAGE/play.png" width="16%" /><img
+      ><img id="play" class="play" src="../IMAGE/play.png" width="25%" /><img
         class="playAka"
         src="../IMAGE/storyAka.png"
         width="15%"
@@ -101,16 +110,36 @@
         width="15%"
     /></a>
     <!----------------------------//------------------------------------------->
-    <div class="main">
-      <p>沈九</p>
-      <img class="mainImg" src="../IMAGE/mainchara.png">
-      <img class="mainNaiyou" src="../IMAGE/MainNaiyou.png" />
+    <p
+      id="arasuji"
+      class="arasuji rellax"
+      data-rellax-speed="-8"
+      onclick="imgchangeArasuji();"
+    >
+      あらすじ
+    </p>
+    <p
+      id="nikki"
+      class="nikki rellax"
+      data-rellax-speed="-8"
+      onclick="imgchangeNikki();"
+    >
+      にっき
+    </p>
+    <div class="arasujiHide" id="arasujiHide">
+      <p>あらすじ</p>
+      <img src="../IMAGE/arasujiMain.png" />
     </div>
-    <div class="mohuku">
-      <p>喪服の青年</p>
-      <img class="mohukuImg" src="../IMAGE/mofukuKaoNashi.png" width="50%">
-      <img class="mohukuNaiyou" src="../IMAGE/MohukuChara.png" />
+    <div class="nikkiHide" id="nikkiHide">
+      <p>にっき</p>
+      <img src="../IMAGE/nikkiMain.png" />
     </div>
+
+    <!-- <div class="ikanaide">
+    <p class="TextRandomAnime">行かないで</p>
+    <p class="TextRandomAnime">いかないで</p>
+    <p class="TextRandomAnime">イカナイデ</p>
+  </div> -->
 
     <!-------------------------Common part------------------------->
     <script src="../JS/header.js"></script>
@@ -119,6 +148,8 @@
       var rellax = new Rellax(".rellax");
     </script>
     <!---------------------------------//------------------------------------------->
-    
+
+    <script src="../JS/play.js"></script>
+    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-1/js/8-1.js"></script>
   </body>
 </html>
