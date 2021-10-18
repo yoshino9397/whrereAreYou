@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="../CSS/story.css" />
+    <link rel="stylesheet" href="../CSS/chara.css" />
     <!----------------------Common part------------------------------------->
     <link rel="stylesheet" href="../CSS/header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <!----------------------------//------------------------------------------->
-    <title>Story</title>
+    <title>Chara</title>
   </head>
   <body>
     <!-------------------------Common part------------------------->
@@ -65,7 +65,7 @@
       <img class="topAka" src="../IMAGE/topAka.png" width="14%" />
     </a>
 
-    <a href="#"
+    <a href="../HTML/chara.html"
       ><img id="chara" class="chara" src="../IMAGE/chara.png" width="14%" />
       <img class="charaAka" src="../IMAGE/charaAka.png" width="14%"
     /></a>
@@ -74,13 +74,11 @@
         id="gallery"
         class="gallery"
         src="../IMAGE/gallery.png"
-        width="15%"
-        onmouseover="hoge();"
-        onmouseout="foo();" />
+        width="15%"/>
       <img class="galleryAka" src="../IMAGE/gallaryAka.png" width="15%"
     /></a>
 
-    <a href="#"
+    <a href="../HTML/story.html"
       ><img id="story" class="story" src="../IMAGE/story.png" width="15%" /><img
         class="storyAka"
         src="../IMAGE/storyAka.png"
@@ -103,29 +101,15 @@
         width="15%"
     /></a>
     <!----------------------------//------------------------------------------->
-    <p
-      id="arasuji"
-      class="arasuji rellax"
-      data-rellax-speed="-8"
-      onclick="imgchangeArasuji();"
-    >
-      あらすじ
-    </p>
-    <p
-      id="nikki"
-      class="nikki rellax"
-      data-rellax-speed="-8"
-      onclick="imgchangeNikki();"
-    >
-      にっき
-    </p>
-    <div class="arasujiHide" id="arasujiHide">
-      <p>あらすじ</p>
-      <img src="../IMAGE/arasujiMain.png" />
+    <div class="main">
+      <p>沈九</p>
+      <img class="mainImg" src="../IMAGE/mainchara.png">
+      <img class="mainNaiyou" src="../IMAGE/MainNaiyou.png" />
     </div>
-    <div class="nikkiHide" id="nikkiHide">
-      <p>にっき</p>
-      <img src="../IMAGE/nikkiMain.png" />
+    <div class="mohuku">
+      <p>喪服の青年</p>
+      <img class="mohukuImg" src="../IMAGE/mofukuKaoNashi.png" width="50%">
+      <img class="mohukuNaiyou" src="../IMAGE/MohukuChara.png" />
     </div>
 
     <!-------------------------Common part------------------------->
@@ -135,6 +119,6 @@
       var rellax = new Rellax(".rellax");
     </script>
     <!---------------------------------//------------------------------------------->
-    <script src="../JS/story.js"></script>
+    
   </body>
 </html>

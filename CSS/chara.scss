@@ -43,7 +43,7 @@ h1 {
   top: 0%;
   margin: -30% 0 0 14.5%;
   padding: 0%;
-  z-index: 7;
+  z-index: 10;
   opacity: 80%;
 }
 
@@ -84,11 +84,6 @@ h1 {
   margin: -12.5% 0 0 47%;
   padding: 0%;
   z-index: 210;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-  &:hover {
-    opacity: 1;
-  }
 }
 .gallery {
   position: absolute;
@@ -118,6 +113,11 @@ h1 {
   margin: -7.5% 0 0 33%;
   padding: 0%;
   z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }
 .play {
   position: absolute;
@@ -155,76 +155,57 @@ h1 {
 }
 //////////--------------------------------------------/////////////
 
-.arasuji {
-  background-image: url(../IMAGE/arasujiBefore.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: rgba(255, 255, 255, 0);
-  font-size: 3.5em;
-  padding: 0% 0 0% 0;
-  margin: 2% 0 0 23%;
-  position: absolute;
-  z-index: 20;
-  transition: 0.3s;
-  cursor: pointer;
-  &:hover {
-    background-image: url(../IMAGE/arasujiAfter.png);
-  }
-}
-.nikki {
-  background-image: url(../IMAGE/nikkiBefore.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: rgba(255, 255, 255, 0);
-  font-size: 4.5em;
-  padding: 0%;
-  margin: 8% 0 0 23%;
-  position: absolute;
-  z-index: 20;
-  transition: 0.3s;
-  cursor: pointer;
-  &:hover {
-    background-image: url(../IMAGE/nikkiAfter.png);
-  }
-}
-.arasujiHide {
+.main {
   p {
-    background-image: url(../IMAGE/arasujiUnder.png);
+    background-image: url(../IMAGE/MainName.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(240, 248, 255, 0);
+    font-size: 9em;
+    padding: 0%;
+    margin: -2% 0 0 50%;
+    position: absolute;
+    z-index: 8;
+  }
+  .mainNaiyou {
+    position: absolute;
+    margin: 9% 0 0 25%;
+    padding: 0%;
+    z-index: 8;
+    width: 37%;
+  }
+  .mainImg {
+    position: absolute;
+    margin: 2% 0 0 56%;
+    padding: 0%;
+    z-index: 8;
+    width: 30%;
+  }
+}
+.mohuku {
+  p {
+    background-image: url(../IMAGE/MohukuName.png);
     background-repeat: no-repeat;
     background-size: contain;
     color: rgba(240, 248, 255, 0);
     font-size: 5em;
     padding: 0%;
-    margin: -3% 0 0 50%;
+    margin: 38% 0 0 21%;
     position: absolute;
     z-index: 8;
   }
-  img {
+  .mohukuNaiyou {
     position: absolute;
-    margin: 7% 0 0 40%;
-    padding: 0%;
-    z-index: 8;
-    width: 42%;
-  }
-}
-.nikkiHide {
-  opacity: 0;
-  p {
-    background-image: url(../IMAGE/nikkiUnder.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: rgba(240, 248, 255, 0);
-    font-size: 5em;
-    padding: 0%;
-    margin: -3% 0 0 50%;
-    position: absolute;
-    z-index: 8;
-  }
-  img {
-    position: absolute;
-    margin: 6% 0 0 40%;
+    margin: 48% 0 0 47%;
     padding: 0%;
     z-index: 8;
     width: 38%;
+  }
+  .mohukuImg {
+    position: absolute;
+    margin: 45% 0 0 21%;
+    padding: 0%;
+    z-index: 8;
+    width: 30%;
   }
 }
