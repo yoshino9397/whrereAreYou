@@ -103,3 +103,14 @@ function imgchangeIgyo() {
   document.getElementById("yadoHide").style.opacity = "0";
   document.getElementById("igyoHide").style.opacity = "1";
 }
+
+  $(function() {
+    var headerHeight = 180;//固定ヘッダーの高さを入れる
+    $('[href^="#"]').click(function(){
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top-headerHeight; 
+      $("html, body").animate({scrollTop:position}, 700, "swing");//200はスクロールの移動スピードです
+      return false;
+    });
+  });
