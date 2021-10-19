@@ -110,7 +110,7 @@ function imgchangeIgyo() {
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top-headerHeight; 
-      $("html, body").animate({scrollTop:position}, 200, "swing");//200はスクロールの移動スピードです
+      $("html, body").animate({scrollTop:position}, 700, "swing");//200はスクロールの移動スピードです
       return false;
     });
   });
