@@ -155,12 +155,12 @@ h1 {
 }
 //////////--------------------------------------------/////////////
 
-.arasuji {
-  background-image: url(../IMAGE/arasujiBefore.png);
+.gaiyo {
+  background-image: url(../IMAGE/gaiyoBefore.png);
   background-repeat: no-repeat;
   background-size: contain;
   color: rgba(255, 255, 255, 0);
-  font-size: 3.5em;
+  font-size: 4em;
   padding: 0% 0 0% 0;
   margin: 2% 0 0 23%;
   position: absolute;
@@ -168,28 +168,76 @@ h1 {
   transition: 0.3s;
   cursor: pointer;
   &:hover {
-    background-image: url(../IMAGE/arasujiAfter.png);
+    background-image: url(../IMAGE/gaiyoAfter.png);
   }
 }
-.nikki {
-  background-image: url(../IMAGE/nikkiBefore.png);
+.sei {
+  background-image: url(../IMAGE/seiBefore.png);
   background-repeat: no-repeat;
   background-size: contain;
   color: rgba(255, 255, 255, 0);
-  font-size: 4.5em;
+  font-size: 3.7em;
   padding: 0%;
-  margin: 8% 0 0 23%;
+  margin: 7% 0 0 23%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
   cursor: pointer;
   &:hover {
-    background-image: url(../IMAGE/nikkiAfter.png);
+    background-image: url(../IMAGE/seiAfter.png);
   }
 }
-.arasujiHide {
+.yado {
+  background-image: url(../IMAGE/yadoBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 3.2em;
+  padding: 0%;
+  margin: 14% 0 0 23%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-image: url(../IMAGE/yadoAfetr.png);
+  }
+}
+.town {
+  background-image: url(../IMAGE/townBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 3.4em;
+  padding: 0%;
+  margin: 20% 0 0 23%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-image: url(../IMAGE/townAfetr.png);
+  }
+}
+.igyo{
+  background-image: url(../IMAGE/monsterBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0%;
+  margin: 27% 0 0 23%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-image: url(../IMAGE/monsterAfter.png);
+  }
+}
+.gaiyoHide {
   p {
-    background-image: url(../IMAGE/arasujiUnder.png);
+    background-image: url(../IMAGE/gaiyoTitle.png);
     background-repeat: no-repeat;
     background-size: contain;
     color: rgba(240, 248, 255, 0);
@@ -207,10 +255,10 @@ h1 {
     width: 42%;
   }
 }
-.nikkiHide {
+.seiHide {
   opacity: 0;
   p {
-    background-image: url(../IMAGE/nikkiUnder.png);
+    background-image: url(../IMAGE/seiTitle.png);
     background-repeat: no-repeat;
     background-size: contain;
     color: rgba(240, 248, 255, 0);
@@ -228,4 +276,66 @@ h1 {
     width: 38%;
   }
 }
-
+.yadoHide {
+  opacity: 0;
+  p {
+    background-image: url(../IMAGE/yadoTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(240, 248, 255, 0);
+    font-size: 5em;
+    padding: 0%;
+    margin: -3% 0 0 50%;
+    position: absolute;
+    z-index: 8;
+  }
+  img {
+    position: absolute;
+    margin: 6% 0 0 40%;
+    padding: 0%;
+    z-index: 8;
+    width: 38%;
+  }
+}
+.townHide {
+  opacity: 0;
+  p {
+    background-image: url(../IMAGE/townTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(240, 248, 255, 0);
+    font-size: 5em;
+    padding: 0%;
+    margin: -3% 0 0 50%;
+    position: absolute;
+    z-index: 8;
+  }
+  img {
+    position: absolute;
+    margin: 6% 0 0 40%;
+    padding: 0%;
+    z-index: 8;
+    width: 38%;
+  }
+}
+.igyoHide {
+  opacity: 0;
+  p {
+    background-image: url(../IMAGE/monsterTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(240, 248, 255, 0);
+    font-size: 5em;
+    padding: 0%;
+    margin: -3% 0 0 50%;
+    position: absolute;
+    z-index: 8;
+  }
+  img {
+    position: absolute;
+    margin: 6% 0 0 40%;
+    padding: 0%;
+    z-index: 8;
+    width: 38%;
+  }
+}
