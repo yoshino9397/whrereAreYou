@@ -17,21 +17,89 @@
 //   TextRandomAnimeControl();/* アニメーション用の関数を呼ぶ*/
 // });// ここまで画面をスクロールをしたら動かしたい場合の記述
 
-// function imgchangeGaiyo() {
-//   document.getElementById("gaiyo").style.backgroundImage =
-//     "url('../IMAGE/arasujiAfter.png')";
-//   document.getElementById("nikki").style.backgroundImage =
-//     "url(../IMAGE/nikkiBefore.png)";
-//   document.getElementById("nikkiHide").style.opacity = "0";
-//   document.getElementById("arasujiHide").style.opacity = "1";
-// }
+function imgchangeGaiyo() {
+  document.getElementById("gaiyo").style.backgroundImage =
+    "url('../IMAGE/gaiyoAfter.png')";
+  document.getElementById("sei").style.backgroundImage =
+    "url(../IMAGE/seiBefore.png)";
+  document.getElementById("yado").style.backgroundImage =
+    "url(../IMAGE/yadoBefore.png)";
+  document.getElementById("town").style.backgroundImage =
+    "url(../IMAGE/townBefore.png)";
+  document.getElementById("igyo").style.backgroundImage =
+    "url(../IMAGE/monsterBefore.png)";
+  document.getElementById("seiHide").style.opacity = "0";
+  document.getElementById("yadoHide").style.opacity = "0";
+  document.getElementById("townHide").style.opacity = "0";
+  document.getElementById("igyoHide").style.opacity = "0";
+  document.getElementById("gaiyoHide").style.opacity = "1";
+}
 
-// function imgchangeSei() {
-//   document.getElementById("sei").style.backgroundImage =
-//     "url(../IMAGE/nikkiAfter.png)";
-//   document.getElementById("arasuji").style.backgroundImage =
-//     "url(../IMAGE/arasujiBefore.png)";
-//   document.getElementById("arasujiHide").style.opacity = "0";
-//   document.getElementById("nikkiHide").style.opacity = "1";
-// }
-
+function imgchangeSei() {
+  document.getElementById("sei").style.backgroundImage =
+    "url(../IMAGE/seiAfter.png)";
+  document.getElementById("gaiyo").style.backgroundImage =
+    "url('../IMAGE/gaiyoBefore.png')";
+  document.getElementById("yado").style.backgroundImage =
+    "url(../IMAGE/yadoBefore.png)";
+  document.getElementById("town").style.backgroundImage =
+    "url(../IMAGE/townBefore.png)";
+  document.getElementById("igyo").style.backgroundImage =
+    "url(../IMAGE/monsterBefore.png)";
+  document.getElementById("gaiyoHide").style.opacity = "0";
+  document.getElementById("yadoHide").style.opacity = "0";
+  document.getElementById("townHide").style.opacity = "0";
+  document.getElementById("igyoHide").style.opacity = "0";
+  document.getElementById("seiHide").style.opacity = "1";
+}
+function imgchangeYado() {
+  document.getElementById("yado").style.backgroundImage =
+    "url(../IMAGE/yadoAfter.png)";
+  document.getElementById("gaiyo").style.backgroundImage =
+    "url('../IMAGE/gaiyoBefore.png')";
+  document.getElementById("sei").style.backgroundImage =
+    "url(../IMAGE/seiBefore.png)";
+  document.getElementById("town").style.backgroundImage =
+    "url(../IMAGE/townBefore.png)";
+  document.getElementById("igyo").style.backgroundImage =
+    "url(../IMAGE/monsterBefore.png)";
+  document.getElementById("gaiyoHide").style.opacity = "0";
+  document.getElementById("seiHide").style.opacity = "0";
+  document.getElementById("townHide").style.opacity = "0";
+  document.getElementById("igyoHide").style.opacity = "0";
+  document.getElementById("yadoHide").style.opacity = "1";
+}
+function imgchangeTown() {
+  document.getElementById("town").style.backgroundImage =
+    "url(../IMAGE/townAfter.png)";
+  document.getElementById("gaiyo").style.backgroundImage =
+    "url('../IMAGE/gaiyoBefore.png')";
+  document.getElementById("sei").style.backgroundImage =
+    "url(../IMAGE/seiBefore.png)";
+  document.getElementById("yado").style.backgroundImage =
+    "url(../IMAGE/yadoBefore.png)";
+  document.getElementById("igyo").style.backgroundImage =
+    "url(../IMAGE/monsterBefore.png)";
+  document.getElementById("gaiyoHide").style.opacity = "0";
+  document.getElementById("seiHide").style.opacity = "0";
+  document.getElementById("yadoHide").style.opacity = "0";
+  document.getElementById("igyoHide").style.opacity = "0";
+  document.getElementById("townHide").style.opacity = "1";
+}
+function imgchangeIgyo() {
+  document.getElementById("igyo").style.backgroundImage =
+    "url(../IMAGE/monsterAfter.png)";
+  document.getElementById("gaiyo").style.backgroundImage =
+    "url('../IMAGE/gaiyoBefore.png')";
+  document.getElementById("sei").style.backgroundImage =
+    "url(../IMAGE/seiBefore.png)";
+  document.getElementById("town").style.backgroundImage =
+    "url(../IMAGE/townBefore.png)";
+  document.getElementById("town").style.backgroundImage =
+    "url(../IMAGE/townBefore.png)";
+  document.getElementById("gaiyoHide").style.opacity = "0";
+  document.getElementById("seiHide").style.opacity = "0";
+  document.getElementById("townHide").style.opacity = "0";
+  document.getElementById("yadoHide").style.opacity = "0";
+  document.getElementById("igyoHide").style.opacity = "1";
+}
