@@ -104,13 +104,42 @@ function imgchangeIgyo() {
   document.getElementById("igyoHide").style.opacity = "1";
 }
 
-  $(function() {
-    var headerHeight = 180;//固定ヘッダーの高さを入れる
-    $('[href^="#"]').click(function(){
-      var href= $(this).attr("href");
-      var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top-headerHeight; 
-      $("html, body").animate({scrollTop:position}, 700, "swing");//200はスクロールの移動スピードです
-      return false;
-    });
+////-----------------スクロール先の位置を調整-------------------------------////
+$(function () {
+  var headerHeight = 180; //固定ヘッダーの高さを入れる
+  $('[href^="#"]').click(function () {
+    var href = $(this).attr("href");
+    var target = $(href == "#" || href == "" ? "html" : href);
+    var position = target.offset().top - headerHeight;
+    $("html, body").animate({ scrollTop: position }, 700, "swing"); //200はスクロールの移動スピードです
+    return false;
   });
+});
+////-----------------スクロール先の位置を調整 終了-------------------------------////
+
+
+window.setTimeout(messageInKanji, 2000);
+function messageInKanji() {
+  document.getElementById("ikanaideKanji").style.opacity="1";
+}
+window.setTimeout(messageOutKanji, 5000);
+function messageOutKanji() {
+  document.getElementById("ikanaideKanji").style.opacity="0";
+}
+window.setTimeout(messageInKana, 4500);
+function messageInKana() {
+  document.getElementById("ikanaideKana").style.opacity="1";
+}
+window.setTimeout(messageOutKana, 7500);
+function messageOutKana() {
+  document.getElementById("ikanaideKana").style.opacity="0";
+}
+window.setTimeout(messageInBig, 9500);
+function messageInBig() {
+  document.getElementById("ikanaideBig").style.opacity="1";
+}
+window.setTimeout(messageOutBig, 11500);
+function messageOutBig() {
+  document.getElementById("ikanaideBig").style.opacity="0";
+}
+

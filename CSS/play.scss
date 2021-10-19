@@ -21,13 +21,13 @@ h1 {
   position: relative;
   margin: -1% 0 0 18%;
   padding: 0;
-  color: rgb(0, 0, 0);
   font-family: "Zhi Mang Xing";
   font-size: 8em;
   letter-spacing: -0.2em;
   font-weight: lighter;
   writing-mode: vertical-lr;
-  z-index: 2;
+  z-index: 8;
+ 
 }
 .light {
   position: fixed;
@@ -384,3 +384,43 @@ h1 {
     filter: brightness(70%);
   }
 }
+
+.ikanaideKanji{
+  color: rgb(133, 5, 5);
+  position: fixed;
+  font-family: 'New Tegomin', serif;
+  font-size: 3em;
+  margin: -10% 0 0 10%;
+  padding: 0%;
+  z-index: 999;
+  writing-mode: vertical-rl;
+  transition: .8s;
+  opacity: 0;
+}
+.ikanaideKana{
+  color: rgb(133, 5, 5);
+  position: fixed;
+  font-family: 'New Tegomin', serif;
+  font-size: 3em;
+  margin: 10% 0 0 87%;
+  padding: 0%;
+  writing-mode: vertical-rl;
+  z-index: 999;
+  transition: .8s;
+  opacity: 0;
+}
+.ikanaideBig{
+  color: rgb(133, 5, 5);
+  position: fixed;
+  font-family: 'New Tegomin', serif;
+  font-size: 8.1em;
+  font-weight: bolder;
+  margin: -20% 0 0% 47%;
+  padding: 0%;
+  writing-mode: vertical-rl;
+  transform: scaleX(-1);
+  z-index: 999;
+  transition: .8s;
+  opacity: 0;
+}
+
