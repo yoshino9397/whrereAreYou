@@ -137,48 +137,79 @@ function messageOutKana() {
 window.setTimeout(messageInBig, 8500);
 function messageInBig() {
   document.getElementById("ikanaideBig").style.opacity="1";
+  document.getElementById("ikanaideBig").style.zIndex="999"
 }
 window.setTimeout(messageOutBig, 10500);
 function messageOutBig() {
   document.getElementById("ikanaideBig").style.opacity="0";
+  document.getElementById("ikanaideBig").style.zIndex="1"
 }
 
 window.setTimeout(messageInHand1, 11000);
 function messageInHand1() {
   document.getElementById("hand1").style.opacity="1";
+  document.getElementById("hand1").style.transition=".1s"
+  document.getElementById("hand1").style.zIndex="999"
 }
 window.setTimeout(messageInHand2, 11500);
 function messageInHand2() {
   document.getElementById("hand2").style.opacity="1";
+  document.getElementById("hand2").style.transition=".1s"
+  document.getElementById("hand2").style.zIndex="999"
 }
 window.setTimeout(messageInHand3, 12000);
 function messageInHand3() {
   document.getElementById("hand3").style.opacity="1";
+  document.getElementById("hand3").style.transition=".1s"
+  document.getElementById("hand3").style.zIndex="999"
 }
 window.setTimeout(messageInHand4, 12300);
 function messageInHand4() {
   document.getElementById("hand4").style.opacity="1";
+  document.getElementById("hand4").style.transition=".1s"
+  document.getElementById("hand4").style.zIndex="999"
 }
 window.setTimeout(messageInHand5, 12600);
 function messageInHand5() {
   document.getElementById("hand5").style.opacity="1";
+  document.getElementById("hand5").style.transition=".1s"
+  document.getElementById("hand5").style.zIndex="999"
 }
 window.setTimeout(messageInHand6, 12700);
 function messageInHand6() {
   document.getElementById("hand6").style.opacity="1";
+  document.getElementById("hand6").style.transition=".1s"
+  document.getElementById("hand6").style.zIndex="999"
 }
 window.setTimeout(messageInHand7, 12800);
 function messageInHand7() {
   document.getElementById("hand7").style.opacity="1";
+  document.getElementById("hand7").style.transition=".1s"
+  document.getElementById("hand7").style.zIndex="999"
 }
 
 window.setTimeout(messageOutHand, 14500);
 function messageOutHand() {
   document.getElementById("hand1").style.opacity="0";
+  document.getElementById("hand1").style.transition=".6s"
   document.getElementById("hand2").style.opacity="0";
+  document.getElementById("hand2").style.transition=".6s"
   document.getElementById("hand3").style.opacity="0";
+  document.getElementById("hand3").style.transition=".6s"
   document.getElementById("hand4").style.opacity="0";
+  document.getElementById("hand4").style.transition=".6s"
   document.getElementById("hand5").style.opacity="0";
+  document.getElementById("hand5").style.transition=".6s"
   document.getElementById("hand6").style.opacity="0";
+  document.getElementById("hand6").style.transition=".6s"
   document.getElementById("hand7").style.opacity="0";
+  document.getElementById("hand7").style.transition=".6s"
+  document.getElementById("hand1").style.zIndex="1"
+  document.getElementById("hand2").style.zIndex="1"
+  document.getElementById("hand3").style.zIndex="1"
+  document.getElementById("hand4").style.zIndex="1"
+  document.getElementById("hand5").style.zIndex="1"
+  document.getElementById("hand6").style.zIndex="1"
+  document.getElementById("hand7").style.zIndex="1"
+
 }

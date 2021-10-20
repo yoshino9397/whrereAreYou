@@ -489,7 +489,6 @@ h1 {
           writing-mode: vertical-rl;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
-  z-index: 999;
   -webkit-transition: .8s;
   transition: .8s;
   opacity: 0;
@@ -500,7 +499,7 @@ h1 {
   margin: -20% 0 0 0;
   padding: 0%;
   width: 100%;
-  z-index: 999;
+  z-index: 18;
   opacity: 0;
 }
 /*# sourceMappingURL=play.css.map */
