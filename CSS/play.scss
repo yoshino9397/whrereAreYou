@@ -415,7 +415,7 @@ h1 {
   font-family: 'New Tegomin', serif;
   font-size: 8.1em;
   font-weight: bolder;
-  margin: -20% 0 0% 47%;
+  margin: -20% 0 0% 45%;
   padding: 0%;
   writing-mode: vertical-rl;
   transform: scaleX(-1);
@@ -423,4 +423,11 @@ h1 {
   transition: .8s;
   opacity: 0;
 }
-
+.hand{
+  position: fixed;
+  margin: -20% 0 0 0;
+  padding: 0%;
+  width: 100%;
+  z-index: 999;
+  opacity: 0;
+}
