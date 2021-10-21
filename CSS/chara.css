@@ -235,4 +235,32 @@ a {
   z-index: 8;
   width: 30%;
 }
+
+.person104 p {
+  background-image: url(../IMAGE/104.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  font-size: 5em;
+  padding: 0%;
+  margin: 80% 0 0 21%;
+  position: absolute;
+  z-index: 8;
+}
+
+.person104 .Naiyou104 {
+  position: absolute;
+  margin: 48% 0 0 47%;
+  padding: 0%;
+  z-index: 8;
+  width: 38%;
+}
+
+.person104 .Img104 {
+  position: absolute;
+  margin: 45% 0 0 21%;
+  padding: 0%;
+  z-index: 8;
+  width: 30%;
+}
 /*# sourceMappingURL=chara.css.map */
