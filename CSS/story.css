@@ -18,7 +18,7 @@ a {
   z-index: 100;
 }
 
-h1 {
+.titleh1 h1 {
   position: relative;
   margin: -1% 0 0 18%;
   padding: 0;
@@ -30,7 +30,7 @@ h1 {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
-  z-index: 2;
+  z-index: 100;
 }
 
 .light {

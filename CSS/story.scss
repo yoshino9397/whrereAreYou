@@ -16,7 +16,7 @@ a {
   height: 10.6%;
   z-index: 100;
 }
-
+.titleh1{
 h1 {
   position: relative;
   margin: -1% 0 0 18%;
@@ -27,7 +27,8 @@ h1 {
   letter-spacing: -0.2em;
   font-weight: lighter;
   writing-mode: vertical-lr;
-  z-index: 2;
+  z-index: 100;
+}
 }
 .light {
   position: fixed;
