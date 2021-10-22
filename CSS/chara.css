@@ -180,7 +180,87 @@ a {
   opacity: 1;
 }
 
-.main p {
+.main {
+  background-image: url(../IMAGE/mainTagBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 2% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+}
+
+.main:hover {
+  background-image: url(../IMAGE/maincharaAfter.png);
+}
+
+.onefloor {
+  background-image: url(../IMAGE/onefloorBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 8.5% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+}
+
+.onefloor:hover {
+  background-image: url(../IMAGE/onefloorAfter.png);
+}
+
+.twofloor {
+  background-image: url(../IMAGE/twofloorBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 15% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+}
+
+.twofloor:hover {
+  background-image: url(../IMAGE/twofloorAfter.png);
+}
+
+.threefloor {
+  background-image: url(../IMAGE/threefloorBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 21.5% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+}
+
+.threefloor:hover {
+  background-image: url(../IMAGE/threefloorAfter.png);
+}
+
+.mainChara p {
   background-image: url(../IMAGE/MainName.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -192,7 +272,7 @@ a {
   z-index: 8;
 }
 
-.main .mainNaiyou {
+.mainChara .mainNaiyou {
   position: absolute;
   margin: 9% 0 0 25%;
   padding: 0%;
@@ -200,7 +280,7 @@ a {
   width: 37%;
 }
 
-.main .mainImg {
+.mainChara .mainImg {
   position: absolute;
   margin: 2% 0 0 56%;
   padding: 0%;

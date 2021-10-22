@@ -155,8 +155,100 @@ h1 {
   }
 }
 //////////--------------------------------------------/////////////
-
 .main {
+  background-image: url(../IMAGE/mainTagBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 2% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+  &:hover {
+    background-image: url(../IMAGE/maincharaAfter.png);
+  }
+}
+.onefloor {
+  background-image: url(../IMAGE/onefloorBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 8.5% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+  &:hover {
+    background-image: url(../IMAGE/onefloorAfter.png);
+  }
+}
+.twofloor {
+  background-image: url(../IMAGE/twofloorBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 15% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+  &:hover {
+    background-image: url(../IMAGE/twofloorAfter.png);
+  }
+}
+.threefloor {
+  background-image: url(../IMAGE/threefloorBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(255, 255, 255, 0);
+  font-size: 4.3em;
+  padding: 0% 0 0% 0;
+  margin: 21.5% 0 0 25%;
+  position: absolute;
+  z-index: 20;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 11%;
+  &:hover {
+    background-image: url(../IMAGE/threefloorAfter.png);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainChara {
   p {
     background-image: url(../IMAGE/MainName.png);
     background-repeat: no-repeat;
