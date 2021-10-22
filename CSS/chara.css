@@ -187,7 +187,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 2% 0 0 25%;
+  margin: 2% 0 0 17%;
   position: absolute;
   z-index: 20;
   -webkit-transition: 0.3s;
@@ -207,7 +207,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 8.5% 0 0 25%;
+  margin: 8.5% 0 0 17%;
   position: absolute;
   z-index: 20;
   -webkit-transition: 0.3s;
@@ -227,7 +227,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 15% 0 0 25%;
+  margin: 15% 0 0 17%;
   position: absolute;
   z-index: 20;
   -webkit-transition: 0.3s;
@@ -247,7 +247,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 21.5% 0 0 25%;
+  margin: 21.5% 0 0 17%;
   position: absolute;
   z-index: 20;
   -webkit-transition: 0.3s;
@@ -260,7 +260,11 @@ a {
   background-image: url(../IMAGE/threefloorAfter.png);
 }
 
-.mainChara p {
+.mainCharaHide {
+  opacity: 0;
+}
+
+.mainCharaHide .mainChara p {
   background-image: url(../IMAGE/MainName.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -272,7 +276,7 @@ a {
   z-index: 8;
 }
 
-.mainChara .mainNaiyou {
+.mainCharaHide .mainChara .mainNaiyou {
   position: absolute;
   margin: 9% 0 0 25%;
   padding: 0%;
@@ -280,7 +284,7 @@ a {
   width: 37%;
 }
 
-.mainChara .mainImg {
+.mainCharaHide .mainChara .mainImg {
   position: absolute;
   margin: 2% 0 0 56%;
   padding: 0%;
@@ -288,7 +292,7 @@ a {
   width: 30%;
 }
 
-.mohuku p {
+.mainCharaHide .mohuku p {
   background-image: url(../IMAGE/MohukuName.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -300,7 +304,7 @@ a {
   z-index: 8;
 }
 
-.mohuku .mohukuNaiyou {
+.mainCharaHide .mohuku .mohukuNaiyou {
   position: absolute;
   margin: 48% 0 0 47%;
   padding: 0%;
@@ -308,7 +312,7 @@ a {
   width: 38%;
 }
 
-.mohuku .mohukuImg {
+.mainCharaHide .mohuku .mohukuImg {
   position: absolute;
   margin: 45% 0 0 21%;
   padding: 0%;
@@ -316,31 +320,35 @@ a {
   width: 30%;
 }
 
-.person104 p {
-  background-image: url(../IMAGE/104.png);
+.oneCharaHide {
+  opacity: 1;
+}
+
+.oneCharaHide .person104 p {
+  background-image: url(../IMAGE/onefloorUnder.png);
   background-repeat: no-repeat;
   background-size: contain;
   color: rgba(240, 248, 255, 0);
-  font-size: 5em;
+  font-size: 4.5em;
   padding: 0%;
-  margin: 80% 0 0 21%;
+  margin: -2% 0 0 40%;
   position: absolute;
   z-index: 8;
 }
 
-.person104 .Naiyou104 {
+.oneCharaHide .person104 .Naiyou104 {
   position: absolute;
-  margin: 48% 0 0 47%;
+  margin: 9% 0 0 25%;
   padding: 0%;
   z-index: 8;
-  width: 38%;
+  width: 37%;
 }
 
-.person104 .Img104 {
+.oneCharaHide .person104 .Img104 {
   position: absolute;
-  margin: 45% 0 0 21%;
+  margin: 5% 0 0 56%;
   padding: 0%;
   z-index: 8;
-  width: 30%;
+  width: 26%;
 }
 /*# sourceMappingURL=chara.css.map */
