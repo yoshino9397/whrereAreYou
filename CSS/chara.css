@@ -271,17 +271,17 @@ a {
   color: rgba(240, 248, 255, 0);
   font-size: 9em;
   padding: 0%;
-  margin: -2% 0 0 50%;
+  margin: -2% 0 0 40%;
   position: absolute;
   z-index: 8;
 }
 
 .mainCharaHide .mainChara .mainNaiyou {
   position: absolute;
-  margin: 9% 0 0 25%;
+  margin: 9% 0 0 29.5%;
   padding: 0%;
   z-index: 8;
-  width: 37%;
+  width: 35%;
 }
 
 .mainCharaHide .mainChara .mainImg {
@@ -299,7 +299,7 @@ a {
   color: rgba(240, 248, 255, 0);
   font-size: 5em;
   padding: 0%;
-  margin: 38% 0 0 21%;
+  margin: 38% 0 0 40%;
   position: absolute;
   z-index: 8;
 }
@@ -321,7 +321,7 @@ a {
 }
 
 .oneCharaHide {
-  opacity: 1;
+  opacity: 0;
 }
 
 .oneCharaHide .person104 p {
@@ -336,19 +336,107 @@ a {
   z-index: 8;
 }
 
-.oneCharaHide .person104 .Naiyou104 {
+.oneCharaHide .person104 .room104 {
   position: absolute;
-  margin: 9% 0 0 25%;
+  margin: 10% 0 0 38%;
   padding: 0%;
   z-index: 8;
-  width: 37%;
+  width: 16%;
+}
+
+.oneCharaHide .person104 .Naiyou104 {
+  position: absolute;
+  margin: 15% 0 0 30%;
+  padding: 0%;
+  z-index: 8;
+  width: 32%;
 }
 
 .oneCharaHide .person104 .Img104 {
   position: absolute;
-  margin: 5% 0 0 56%;
+  margin: 10% 0 0 56%;
   padding: 0%;
   z-index: 8;
   width: 26%;
+}
+
+.twoCharaHide {
+  opacity: 0;
+}
+
+.twoCharaHide .person203 p {
+  background-image: url(../IMAGE/twofloorUnder.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  font-size: 5em;
+  padding: 0%;
+  margin: -2% 0 0 40%;
+  position: absolute;
+  z-index: 8;
+}
+
+.twoCharaHide .person203 .room203 {
+  position: absolute;
+  margin: 10% 0 0 38%;
+  padding: 0%;
+  z-index: 8;
+  width: 16%;
+}
+
+.twoCharaHide .person203 .Naiyou203 {
+  position: absolute;
+  margin: 17% 0 0 30%;
+  padding: 0%;
+  z-index: 8;
+  width: 32%;
+}
+
+.twoCharaHide .person203 .Img203 {
+  position: absolute;
+  margin: 10% 0 0 55%;
+  padding: 0%;
+  z-index: 8;
+  width: 30%;
+}
+
+.threeCharaHide {
+  opacity: 1;
+}
+
+.threeCharaHide .person306 p {
+  background-image: url(../IMAGE/threefloorUnder.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  font-size: 5em;
+  padding: 0%;
+  margin: -2% 0 0 40%;
+  position: absolute;
+  z-index: 8;
+}
+
+.threeCharaHide .person306 .room306 {
+  position: absolute;
+  margin: 10% 0 0 38%;
+  padding: 0%;
+  z-index: 8;
+  width: 16%;
+}
+
+.threeCharaHide .person306 .Naiyou306 {
+  position: absolute;
+  margin: 17% 0 0 30%;
+  padding: 0%;
+  z-index: 8;
+  width: 32%;
+}
+
+.threeCharaHide .person306 .Img306 {
+  position: absolute;
+  margin: 11% 0 0 59%;
+  padding: 0%;
+  z-index: 8;
+  width: 23%;
 }
 /*# sourceMappingURL=chara.css.map */
