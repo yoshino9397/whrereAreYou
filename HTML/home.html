@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../CSS/home.css" />
-  <title>Home</title>
-  
-</head>
-<body style="background-color: black;">
-  <script>header();</script>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <!----------------------Common part------------------------------------->
+    <link rel="stylesheet" href="../CSS/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap"
+      rel="stylesheet"
+    />
+    <!----------------------------//------------------------------------------->
+    <title>Home</title>
+  </head>
+  <body>
+    <!-------------------------Common part------------------------->
+    <header class="header">
+      <div class="bgm">
+        <audio
+          id="music"
+          type="audio/mp3"
+          src="../audio/tree-cricket-bush-1.mp3"
+        ></audio>
+        <img class="BGM" src="../IMAGE/BGM.png" width="7%" />
+        <img
+          id="bgmon"
+          class="bgmon"
+          width="3.7%"
+          src="../IMAGE/bgmOnon.png"
+          onclick="disableMute();henkou1();"
+        />
+        <img class="bgmSlash" src="../IMAGE/bgmSlash.png" width="1.5%" />
+        <img
+          id="bgmoff"
+          class="bgmoff"
+          width="5%"
+          src="../IMAGE/bgmOnoff.png"
+          onclick="enableMute();henkou2();"
+        />
+      </div>
+      <img class="line" src="../IMAGE/whiteLine.png" width="100%" />
+    </header>
+<!----------------------------//------------------------------------------->
+<p id="special" class="special">とくべつ</p>
+<img src="../IMAGE/homeSpecialAfter.png" id="specialAka" class="specialAka">
+<p id="gallery" class="gallery">ぎゃらりー</p>
+<img src="../IMAGE/homeGalleryAfter.png" id="galleryAka" class="galleryAka">
+<p id="play" class="play">あそびかた</p>
+<img src="../IMAGE/homePlayAfter.png" id="playAka" class="playAka">
+<p id="chara" class="chara">じんぶつ</p>
+<img src="../IMAGE/homeCharaAfter.png" id="charaAka" class="charaAka">
+<p id="story" class="story">ものがたり</p>
+<img src="../IMAGE/homeStoryAfter.png" id="storyAka" class="storyAka">
 
 
 
 <script src="../JS/header.js"></script>
-</body>
+    <script src="../JS/home.js"></script>
+  </body>
 </html>

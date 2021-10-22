@@ -1,1 +1,145 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+.special {
+  background-image: url(../IMAGE/homeSpecialBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  height: 21%;
+  padding: 0%;
+  margin: 30% 0 0 80%;
+  position: absolute;
+  z-index: 3;
+}
+
+.specialAka {
+  height: 29%;
+  padding: 0%;
+  margin: 28% 0 0 78%;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.specialAka:hover {
+  opacity: 1;
+}
+
+.gallery {
+  background-image: url(../IMAGE/homeGalleryBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  height: 21%;
+  padding: 0%;
+  margin: 30% 0 0 76%;
+  position: absolute;
+  z-index: 3;
+}
+
+.galleryAka {
+  height: 29%;
+  padding: 0%;
+  margin: 28.5% 0 0 74%;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.galleryAka:hover {
+  opacity: 1;
+}
+
+.play {
+  background-image: url(../IMAGE/homePlayBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  height: 25%;
+  padding: 0%;
+  margin: 30% 0 0 72%;
+  position: absolute;
+  z-index: 3;
+}
+
+.playAka {
+  height: 30%;
+  padding: 0%;
+  margin: 29% 0 0 70%;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.playAka:hover {
+  opacity: 1;
+}
+
+.chara {
+  background-image: url(../IMAGE/homeCharaBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  height: 22%;
+  padding: 0%;
+  margin: 30% 0 0 68%;
+  position: absolute;
+  z-index: 3;
+}
+
+.charaAka {
+  height: 28%;
+  padding: 0%;
+  margin: 29% 0 0 66%;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.charaAka:hover {
+  opacity: 1;
+}
+
+.story {
+  background-image: url(../IMAGE/homeStoryBefore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: rgba(240, 248, 255, 0);
+  height: 24%;
+  padding: 0%;
+  margin: 30% 0 0 64%;
+  position: absolute;
+  z-index: 3;
+}
+
+.storyAka {
+  height: 30%;
+  padding: 0%;
+  margin: 28.5% 0 0 62.8%;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.storyAka:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=home.css.map */
