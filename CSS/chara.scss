@@ -16,19 +16,19 @@ a {
   height: 10.6%;
   z-index: 100;
 }
-.titleh1{
-h1 {
-  position: relative;
-  margin: -1% 0 0 18%;
-  padding: 0;
-  color: rgb(0, 0, 0);
-  font-family: "Zhi Mang Xing";
-  font-size: 8em;
-  letter-spacing: -0.2em;
-  font-weight: lighter;
-  writing-mode: vertical-lr;
-  z-index: 100;
-}
+.titleh1 {
+  h1 {
+    position: relative;
+    margin: -1% 0 0 18%;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: "Zhi Mang Xing";
+    font-size: 8em;
+    letter-spacing: -0.2em;
+    font-weight: lighter;
+    writing-mode: vertical-lr;
+    z-index: 100;
+  }
 }
 .light {
   position: fixed;
@@ -162,7 +162,7 @@ h1 {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 2% 0 0 25%;
+  margin: 2% 0 0 17%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -179,7 +179,7 @@ h1 {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 8.5% 0 0 25%;
+  margin: 8.5% 0 0 17%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -196,7 +196,7 @@ h1 {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 15% 0 0 25%;
+  margin: 15% 0 0 17%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -213,7 +213,7 @@ h1 {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 21.5% 0 0 25%;
+  margin: 21.5% 0 0 17%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -223,109 +223,175 @@ h1 {
     background-image: url(../IMAGE/threefloorAfter.png);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mainChara {
-  p {
-    background-image: url(../IMAGE/MainName.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: rgba(240, 248, 255, 0);
-    font-size: 9em;
-    padding: 0%;
-    margin: -2% 0 0 50%;
-    position: absolute;
-    z-index: 8;
+.mainCharaHide {
+  opacity: 0;
+  .mainChara {
+    p {
+      background-image: url(../IMAGE/MainName.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: rgba(240, 248, 255, 0);
+      font-size: 9em;
+      padding: 0%;
+      margin: -2% 0 0 40%;
+      position: absolute;
+      z-index: 8;
+    }
+    .mainNaiyou {
+      position: absolute;
+      margin: 9% 0 0 29.5%;
+      padding: 0%;
+      z-index: 8;
+      width: 35%;
+    }
+    .mainImg {
+      position: absolute;
+      margin: 2% 0 0 56%;
+      padding: 0%;
+      z-index: 8;
+      width: 30%;
+    }
   }
-  .mainNaiyou {
-    position: absolute;
-    margin: 9% 0 0 25%;
-    padding: 0%;
-    z-index: 8;
-    width: 37%;
-  }
-  .mainImg {
-    position: absolute;
-    margin: 2% 0 0 56%;
-    padding: 0%;
-    z-index: 8;
-    width: 30%;
-  }
-}
-.mohuku {
-  p {
-    background-image: url(../IMAGE/MohukuName.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: rgba(240, 248, 255, 0);
-    font-size: 5em;
-    padding: 0%;
-    margin: 38% 0 0 21%;
-    position: absolute;
-    z-index: 8;
-  }
-  .mohukuNaiyou {
-    position: absolute;
-    margin: 48% 0 0 47%;
-    padding: 0%;
-    z-index: 8;
-    width: 38%;
-  }
-  .mohukuImg {
-    position: absolute;
-    margin: 45% 0 0 21%;
-    padding: 0%;
-    z-index: 8;
-    width: 30%;
+  .mohuku {
+    p {
+      background-image: url(../IMAGE/MohukuName.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: rgba(240, 248, 255, 0);
+      font-size: 5em;
+      padding: 0%;
+      margin: 38% 0 0 40%;
+      position: absolute;
+      z-index: 8;
+    }
+    .mohukuNaiyou {
+      position: absolute;
+      margin: 48% 0 0 47%;
+      padding: 0%;
+      z-index: 8;
+      width: 38%;
+    }
+    .mohukuImg {
+      position: absolute;
+      margin: 45% 0 0 21%;
+      padding: 0%;
+      z-index: 8;
+      width: 30%;
+    }
   }
 }
-.person104{
-  p {
-    background-image: url(../IMAGE/104.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: rgba(240, 248, 255, 0);
-    font-size: 5em;
-    padding: 0%;
-    margin: 80% 0 0 21%;
-    position: absolute;
-    z-index: 8;
-  }
-  .Naiyou104 {
-    position: absolute;
-    margin: 48% 0 0 47%;
-    padding: 0%;
-    z-index: 8;
-    width: 38%;
-  }
-  .Img104 {
-    position: absolute;
-    margin: 45% 0 0 21%;
-    padding: 0%;
-    z-index: 8;
-    width: 30%;
+.oneCharaHide {
+  opacity: 0;
+  .person104 {
+    p {
+      background-image: url(../IMAGE/onefloorUnder.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: rgba(240, 248, 255, 0);
+      font-size: 4.5em;
+      padding: 0%;
+      margin: -2% 0 0 40%;
+      position: absolute;
+      z-index: 8;
+    }
+    .room104 {
+      position: absolute;
+      margin: 10% 0 0 38%;
+      padding: 0%;
+      z-index: 8;
+      width: 16%;
+    }
+    .Naiyou104 {
+      position: absolute;
+      margin: 15% 0 0 30%;
+      padding: 0%;
+      z-index: 8;
+      width: 32%;
+    }
+
+    .Img104 {
+      position: absolute;
+      margin: 10% 0 0 56%;
+      padding: 0%;
+      z-index: 8;
+      width: 26%;
+    }
   }
 }
+.twoCharaHide {
+  opacity: 0;
+  .person203 {
+    p {
+      background-image: url(../IMAGE/twofloorUnder.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: rgba(240, 248, 255, 0);
+      font-size: 5em;
+      padding: 0%;
+      margin: -2% 0 0 40%;
+      position: absolute;
+      z-index: 8;
+    }
+    .room203 {
+      position: absolute;
+      margin: 10% 0 0 38%;
+      padding: 0%;
+      z-index: 8;
+      width: 16%;
+    }
+    .Naiyou203 {
+      position: absolute;
+      margin: 17% 0 0 30%;
+      padding: 0%;
+      z-index: 8;
+      width: 32%;
+    }
+
+    .Img203 {
+      position: absolute;
+      margin: 10% 0 0 55%;
+      padding: 0%;
+      z-index: 8;
+      width: 30%;
+    }
+  }
+}
+.threeCharaHide {
+  opacity: 1;
+  .person306 {
+    p {
+      background-image: url(../IMAGE/threefloorUnder.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: rgba(240, 248, 255, 0);
+      font-size: 5em;
+      padding: 0%;
+      margin: -2% 0 0 40%;
+      position: absolute;
+      z-index: 8;
+    }
+    .room306 {
+      position: absolute;
+      margin: 10% 0 0 38%;
+      padding: 0%;
+      z-index: 8;
+      width: 16%;
+    }
+    .Naiyou306 {
+      position: absolute;
+      margin: 17% 0 0 30%;
+      padding: 0%;
+      z-index: 8;
+      width: 32%;
+    }
+
+    .Img306 {
+      position: absolute;
+      margin: 11% 0 0 59%;
+      padding: 0%;
+      z-index: 8;
+      width: 23%;
+    }
+  }
+}
+
