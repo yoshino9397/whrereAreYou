@@ -162,7 +162,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 2% 0 0 17%;
+  margin: 2% 0 0 18.3%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -179,7 +179,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 8.5% 0 0 17%;
+  margin: 8.5% 0 0 18.3%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -196,7 +196,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 15% 0 0 17%;
+  margin: 15% 0 0 18.3%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -213,7 +213,7 @@ a {
   color: rgba(255, 255, 255, 0);
   font-size: 4.3em;
   padding: 0% 0 0% 0;
-  margin: 21.5% 0 0 17%;
+  margin: 21.5% 0 0 18.3%;
   position: absolute;
   z-index: 20;
   transition: 0.3s;
@@ -224,7 +224,7 @@ a {
   }
 }
 .mainCharaHide {
-  opacity: 0;
+  opacity: 1;
   .mainChara {
     p {
       background-image: url(../IMAGE/MainName.png);
@@ -357,7 +357,7 @@ a {
   }
 }
 .threeCharaHide {
-  opacity: 1;
+  opacity: 0;
   .person306 {
     p {
       background-image: url(../IMAGE/threefloorUnder.png);
