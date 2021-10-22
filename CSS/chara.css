@@ -364,7 +364,7 @@ a {
   opacity: 0;
 }
 
-.twoCharaHide .person203 p {
+.twoCharaHide .person201 p {
   background-image: url(../IMAGE/twofloorUnder.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -376,9 +376,33 @@ a {
   z-index: 8;
 }
 
+.twoCharaHide .person201 .room201 {
+  position: absolute;
+  margin: 10% 0 0 39%;
+  padding: 0%;
+  z-index: 8;
+  width: 14%;
+}
+
+.twoCharaHide .person201 .Naiyou201 {
+  position: absolute;
+  margin: 16% 0 0 33%;
+  padding: 0%;
+  z-index: 8;
+  width: 25%;
+}
+
+.twoCharaHide .person201 .Img201 {
+  position: absolute;
+  margin: 10% 0 0 58%;
+  padding: 0%;
+  z-index: 8;
+  width: 26%;
+}
+
 .twoCharaHide .person203 .room203 {
   position: absolute;
-  margin: 10% 0 0 38%;
+  margin: 47% 0 0 57%;
   padding: 0%;
   z-index: 8;
   width: 16%;
@@ -386,7 +410,7 @@ a {
 
 .twoCharaHide .person203 .Naiyou203 {
   position: absolute;
-  margin: 17% 0 0 30%;
+  margin: 55% 0 0 51%;
   padding: 0%;
   z-index: 8;
   width: 32%;
@@ -394,10 +418,10 @@ a {
 
 .twoCharaHide .person203 .Img203 {
   position: absolute;
-  margin: 10% 0 0 55%;
+  margin: 47% 0 0 24%;
   padding: 0%;
   z-index: 8;
-  width: 30%;
+  width: 32%;
 }
 
 .threeCharaHide {
