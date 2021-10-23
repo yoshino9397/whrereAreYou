@@ -143,11 +143,43 @@ body {
   opacity: 1;
 }
 
-.top {
+.news .top {
+  position: relative;
+  margin: 47% 0 0 20%;
+  padding: 0%;
   width: 50%;
 }
 
-.bottom {
+.news .middle {
+  position: relative;
+  margin: 3% 0 0 20%;
+  padding: 0%;
+}
+
+.news .bottom {
+  position: relative;
+  margin: 3% 0 0 20%;
+  padding: 0%;
   width: 50%;
+}
+
+.news .buttonOpen {
+  position: absolute;
+  margin: -4.5% 0% 0 50%;
+  padding: 0%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.news .buttonClose {
+  position: absolute;
+  margin: -4.5% 0% 0 50%;
+  padding: 0%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.news .open_contents {
+  color: aliceblue;
 }
 /*# sourceMappingURL=home.css.map */

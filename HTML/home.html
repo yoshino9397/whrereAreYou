@@ -76,13 +76,27 @@
     <img src="../IMAGE/homeStoryAfter.png" id="storyAka" class="storyAka" />
 
     <div class="news">
-      <img class="top" src="../IMAGE/whiteLine.png">
+      <img class="top" src="../IMAGE/whiteLine.png" />
       <div class="middle">
+        <img
+          src="../IMAGE/homeOpen.png"
+          class="buttonOpen"
+          id="buttonOpen"
+          onclick="display();"
+          width="10%"
+        />
+        <img
+          src="../IMAGE/homeClose.png"
+          class="buttonClose"
+          id="buttonClose"
+          width="10%"
+          style="display: none"
+        />
         <div class="close_contents">
           <p>aaaa</p>
           <p>ssss</p>
         </div>
-        <div class="open_contents" style="display: none">
+        <div id="open" class="open_contents" style="display: none">
           <p>dddd</p>
           <p>ffff</p>
           <p>gggg</p>
@@ -91,9 +105,7 @@
           <p>kkkkk</p>
         </div>
       </div>
-      <img class="bottom" src="../IMAGE/whiteLine.png">
-      <div id="close" style="display: none; opacity: 1">CLOSE▲</div>
-      <div id="open" style="opacity: 1; display: block">OPEN▼</div>
+      <img class="bottom" src="../IMAGE/whiteLine.png" />
     </div>
 
     <script src="../JS/header.js"></script>
