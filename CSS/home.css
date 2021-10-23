@@ -158,9 +158,11 @@ body {
 
 .news .bottom {
   position: relative;
-  margin: 3% 0 0 20%;
+  margin: 5% 0 0 20%;
   padding: 0%;
   width: 50%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .news .buttonOpen {
@@ -168,7 +170,7 @@ body {
   margin: -4.5% 0% 0 50%;
   padding: 0%;
   cursor: pointer;
-  z-index: 3;
+  z-index: 2;
 }
 
 .news .buttonClose {
@@ -180,6 +182,25 @@ body {
 }
 
 .news .open_contents {
-  color: aliceblue;
+  margin: 6% 0 0 10%;
+  padding: 0%;
+  position: absolute;
+  opacity: 0;
+}
+
+.news .open_contents p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.news .close_contents {
+  margin: -1% 0 0 10%;
+  padding: 0%;
+  position: absolute;
+}
+
+.news .close_contents p {
+  color: white;
+  font-size: 1.5em;
 }
 /*# sourceMappingURL=home.css.map */
