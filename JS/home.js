@@ -6,7 +6,7 @@ var display = function () {
     //とじるの状態//
     div.setAttribute("style", "display:block");
     document.getElementById("buttonOpen").style.opacity = "0";
-    document.getElementById("bottom").style.marginTop = "20%";
+    document.getElementById("bottom").style.marginTop = "16%";
     document.getElementById("bottom").style.transition=".3s";
     document.getElementById("open").style.opacity="1";
     document.getElementById("open").style.transition=".5s ease-in-out";

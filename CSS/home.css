@@ -8,6 +8,10 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .special {
   background-image: url(../IMAGE/homeSpecialBefore.png);
   background-repeat: no-repeat;
@@ -161,8 +165,8 @@ body {
   margin: 5% 0 0 20%;
   padding: 0%;
   width: 50%;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .news .buttonOpen {
@@ -190,17 +194,29 @@ body {
 
 .news .open_contents p {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-family: "New Tegomin", serif;
+}
+
+.news .open_contents p span {
+  font-family: "Zhi Mang Xing";
+  font-size: 1.2em;
 }
 
 .news .close_contents {
-  margin: -1% 0 0 10%;
+  margin: 1% 0 0 10%;
   padding: 0%;
   position: absolute;
 }
 
 .news .close_contents p {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-family: "New Tegomin", serif;
+}
+
+.news .close_contents p span {
+  font-family: "Zhi Mang Xing";
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=home.css.map */
