@@ -137,16 +137,17 @@ body {
   }
   .bottom {
     position: relative;
-    margin: 3% 0 0 20%;
+    margin: 5% 0 0 20%;
     padding: 0%;
     width: 50%;
+    transition: .3s ease-in-out;
   }
   .buttonOpen {
     position: absolute;
     margin: -4.5% 0% 0 50%;
     padding: 0%;
     cursor: pointer;
-    z-index: 3;
+    z-index: 2;
   }
   .buttonClose {
     position: absolute;
@@ -156,6 +157,22 @@ body {
     z-index: 1;
   }
   .open_contents{
-    color: aliceblue;
+    margin: 6% 0 0 10%;
+    padding: 0%;
+    position: absolute;
+    opacity: 0;
+    p {
+      color: white;
+      font-size: 1.5em;
+    }
+  }
+  .close_contents {
+    margin: -1% 0 0 10%;
+    padding: 0%;
+    position: absolute;
+    p {
+      color: white;
+      font-size: 1.5em;
+    }
   }
 }
