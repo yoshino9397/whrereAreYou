@@ -5,21 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="../CSS/play.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-1/css/reset.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-1/css/8-1.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../CSS/garelly.css" />
     <!----------------------Common part------------------------------------->
     <link rel="stylesheet" href="../CSS/header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,9 +15,10 @@
       rel="stylesheet"
     />
     <!----------------------------//------------------------------------------->
-    <title>Play</title>
+    <title>Gallery</title>
   </head>
   <body>
+    <!-------------------------Common part------------------------->
     <header class="header">
       <div class="bgm">
         <audio
@@ -79,7 +66,7 @@
     </a>
 
     <a href="../HTML/chara.html"
-      ><img id="chara" class="chara" src="../IMAGE/chara.png" width="24%" />
+      ><img id="chara" class="chara" src="../IMAGE/chara.png" width="14%" />
       <img class="charaAka" src="../IMAGE/charaAka.png" width="14%"
     /></a>
     <a href="../HTML/gallery.html"
@@ -87,7 +74,7 @@
         id="gallery"
         class="gallery"
         src="../IMAGE/gallery.png"
-        width="15%" />
+        width="15%">
       <img class="galleryAka" src="../IMAGE/gallaryAka.png" width="15%"
     /></a>
 
@@ -98,7 +85,7 @@
         width="15%"
     /></a>
     <a href="../HTML/play.html"
-      ><img id="play" class="play" src="../IMAGE/play.png" width="25%" /><img
+      ><img id="play" class="play" src="../IMAGE/play.png" width="16%" /><img
         class="playAka"
         src="../IMAGE/storyAka.png"
         width="15%"
@@ -114,93 +101,12 @@
         width="15%"
     /></a>
     <!----------------------------//------------------------------------------->
-    <a href="#gaiyoHide"
-      ><p
-        id="gaiyo"
-        class="gaiyo rellax"
-        data-rellax-speed="-8"
-        onclick="imgchangeGaiyo();"
-      >
-        概要
-      </p></a
-    >
-    <a href="#seiHide">
-      <p
-        id="sei"
-        class="sei rellax"
-        data-rellax-speed="-8"
-        onclick="imgchangeSei();"
-      >
-        「生」
-      </p></a
-    >
-    <a href="#yadoHide">
-      <p
-        id="yado"
-        class="yado rellax"
-        data-rellax-speed="-8"
-        onclick="imgchangeYado();"
-      >
-        宿について
-      </p></a
-    >
-    <a href="#townHide">
-      <p
-        id="town"
-        class="town rellax"
-        data-rellax-speed="-8"
-        onclick="imgchangeTown();"
-      >
-        町について
-      </p></a
-    >
-    <a href="#igyoHide">
-      <p
-        id="igyo"
-        class="igyo rellax"
-        data-rellax-speed="-8"
-        onclick="imgchangeIgyo();"
-      >
-        異形
-      </p></a
-    >
-    <div class="gaiyoHide" id="gaiyoHide">
-      <p>概要</p>
-      <img class="gaiyoNaiyo" src="../IMAGE/gaiyoNaiyo.png" />
-      <img class="tansaku" src="../IMAGE/machiTansaku.png" />
-      <img class="tansakuExp" src="../IMAGE/tansakuExp.png" />
-      <img class="reason" src="../IMAGE/theirReason.png" />
-      <img class="reasonExp" src="../IMAGE/reasonExp.png" />
-    </div>
-    <div class="seiHide" id="seiHide">
-      <p>「生」</p>
-      <img class="seiExp" src="../IMAGE/seiExp.png" />
-      <img class="igyo2" src="../IMAGE/igyo2.png" />
-    </div>
-    <div class="yadoHide" id="yadoHide">
-      <p>宿について</p>
-      <img src="../IMAGE/yadoExp.png" />
-    </div>
-    <div class="townHide" id="townHide">
-      <p>町について</p>
-      <img src="../IMAGE/townExp.png" />
-    </div>
-    <div class="igyoHide" id="igyoHide">
-      <p>異形</p>
-      <img class="monsterExp" src="../IMAGE/monsterExp.png" />
-      <img class="igyo3" src="../IMAGE/igyo3.png" />
-    </div>
 
-    <p class="ikanaideKanji" id="ikanaideKanji">行かないで</p>
-    <p class="ikanaideKana" id="ikanaideKana">いかないで</p>
-    <p class="ikanaideBig" id="ikanaideBig">いかないで</p>
-    <img src="../IMAGE/hand1.png" alt="" id="hand1" class="hand" />
-    <img src="../IMAGE/hand2.png" alt="" id="hand2" class="hand" />
-    <img src="../IMAGE/hand3.png" alt="" id="hand3" class="hand" />
-    <img src="../IMAGE/hand4.png" alt="" id="hand4" class="hand" />
-    <img src="../IMAGE/hand5.png" alt="" id="hand5" class="hand" />
-    <img src="../IMAGE/hand6.png" alt="" id="hand6" class="hand" />
-    <img src="../IMAGE/hand7.png" alt="" id="hand7" class="hand" />
+
+
+
+
+
 
     <!-------------------------Common part------------------------->
     <script src="../JS/header.js"></script>
@@ -209,8 +115,6 @@
       var rellax = new Rellax(".rellax");
     </script>
     <!---------------------------------//------------------------------------------->
-
-    <script src="../JS/play.js"></script>
-    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-1/js/8-1.js"></script>
+    <script src="../JS/story.js"></script>
   </body>
 </html>
