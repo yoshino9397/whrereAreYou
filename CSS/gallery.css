@@ -30,7 +30,7 @@ a {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
-  z-index: 100;
+  z-index: 30;
 }
 
 .light {
@@ -231,6 +231,58 @@ a {
   width: 25%;
   height: 26%;
   z-index: 30;
+  cursor: pointer;
+}
+
+#mask {
+  background: rgba(0, 0, 0, 0.733);
+  position: fixed;
+  padding: 0%;
+  margin: -20% 0 0 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 1;
+}
+
+#modal #close {
+  position: fixed;
+  margin: -17% 0 0 83%;
+  padding: 0%;
+  font-size: 2em;
+  color: #fff;
+  z-index: 800;
+  cursor: pointer;
+}
+
+#modal img {
+  position: fixed;
+  width: 70%;
+  margin: -12% 0 0 15%;
+  padding: 0%;
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 800;
+  cursor: pointer;
+}
+
+#modal #mae {
+  position: fixed;
+  margin: 2% 0 0 6%;
+  padding: 0%;
+  font-size: 4em;
+  color: #fff;
+  z-index: 800;
+  cursor: pointer;
+}
+
+#modal #ushiro {
+  position: fixed;
+  margin: 2% 0 0 90%;
+  padding: 0%;
+  font-size: 4em;
+  color: #fff;
+  z-index: 800;
   cursor: pointer;
 }
 /*# sourceMappingURL=gallery.css.map */
