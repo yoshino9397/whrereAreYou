@@ -16,19 +16,19 @@ a {
   height: 10.6%;
   z-index: 100;
 }
-.titleh1{
-h1 {
-  position: relative;
-  margin: -1% 0 0 18%;
-  padding: 0;
-  color: rgb(0, 0, 0);
-  font-family: "Zhi Mang Xing";
-  font-size: 8em;
-  letter-spacing: -0.2em;
-  font-weight: lighter;
-  writing-mode: vertical-lr;
-  z-index: 100;
-}
+.titleh1 {
+  h1 {
+    position: relative;
+    margin: -1% 0 0 18%;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: "Zhi Mang Xing";
+    font-size: 8em;
+    letter-spacing: -0.2em;
+    font-weight: lighter;
+    writing-mode: vertical-lr;
+    z-index: 100;
+  }
 }
 .light {
   position: fixed;
@@ -102,11 +102,6 @@ h1 {
   margin: -12.5% 0 0 65%;
   padding: 0%;
   z-index: 210;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-  &:hover {
-    opacity: 1;
-  }
 }
 .story {
   position: absolute;
@@ -119,6 +114,11 @@ h1 {
   margin: -7.5% 0 0 33%;
   padding: 0%;
   z-index: 210;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }
 .play {
   position: absolute;
@@ -155,3 +155,84 @@ h1 {
   }
 }
 //////////--------------------------------------------/////////////
+.juroSunset {
+  margin: 9.5% 0 0 25%;
+  padding: 0%;
+  position: absolute;
+  width: 25%;
+  z-index: 9;
+}
+.juroSunsetOver {
+  margin: 9.5% 0 0 25%;
+  padding: 0%;
+  position: absolute;
+  width: 25%;
+  height: 26%;
+  z-index: 30;
+  cursor: pointer;
+}
+
+.surpriseYomi{
+  margin: 9.5% 0 0 53%;
+  padding: 0%;
+  position: absolute;
+  width: 25%;
+  z-index: 9;
+}
+.surpriseYomiOver {
+  margin: 9.5% 0 0 53%;
+  padding: 0%;
+  position: absolute;
+  width: 25%;
+  height: 26%;
+  z-index: 30;
+  cursor: pointer;
+}
+.cryShiro {
+  margin: 28% 0 0 25%;
+  padding: 0%;
+  position: absolute;
+  width: 25%;
+  z-index: 9;
+}
+.cryShiroOver {
+  margin: 28% 0 0 25%;
+  padding: 0%;
+  position: absolute;
+  width: 25%;
+  height: 26%;
+  z-index: 30;
+  cursor: pointer;
+}
+// #modal {
+//   .close{
+//     font-size: 1em;
+//     color: #fff;
+//     position: absolute;
+//     z-index: 5;
+//   }
+//   img{
+//     width: 60%;
+//     margin: 0%;
+//     padding: 0%;
+//     // background-color: rgba(0, 0, 0, 0.459);
+//     transition: .4s;
+//     z-index: 5;
+//   }
+// }
+// #mask {
+//   background: rgba(0, 0, 0, 0.4);
+//   position: fixed;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   left: 0;
+//   z-index: 6;
+// }
+// #mask.hidden {
+//   display: none;
+// }
+
+// #modal.hidden {
+//   display: none;
+// }
