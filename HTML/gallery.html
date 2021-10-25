@@ -102,23 +102,35 @@
     /></a>
     <!----------------------------//------------------------------------------->
 
-    <!-- <img class="juroSunset" src="../IMAGE/juroSunset.png" />
-    <div id="juroSunset" class="juroSunsetOver" onclick="modal();"></div> -->
+    <img class="juroSunset" src="../IMAGE/juroSunset.png" />
+    <div id="juroSunset" class="juroSunsetOver" onclick="modal()"></div>
     <div id="mask"></div>
-    <section id="modal">
-      <p id="close">戻</p>
-      <p id="mae">←</p>
-      <img
-        id="hiddenjuroSunset"
-        src="../IMAGE/juroSunset.png"
-      />
-      <p id="ushiro">→</p>
+    <section id="modal1" class="modal">
+      <p id="close" onclick="modaloff();">戻</p>
+      <p id="mae" onclick="modal3();modaloff();">←</p>
+      <img id="juroSunsethidden" src="../IMAGE/juroSunset.png" />
+      <p id="ushiro" onclick="modal2();modaloff()">→</p>
     </section>
-    <!-- <img class="surpriseYomi" src="../IMAGE/surpriseYomi.png" />
-    <div id="surpriseYomi" class="surpriseYomiOver"></div>
-    <img class="cryShiro" src="../IMAGE/cryShiro.png" />
-    <div id="cryShiro" class="cryShiroOver"></div> -->
 
+    <img class="surpriseYomi" src="../IMAGE/surpriseYomi.png" />
+    <div id="surpriseYomi" class="surpriseYomiOver" onclick="modal2();"></div>
+    <div id="mask"></div>
+    <section id="modal2" class="modal">
+      <p id="close" onclick="modaloff2();">戻</p>
+      <p id="mae" onclick="modal();modaloff2();">←</p>
+      <img id="surpriseYomihidden" src="../IMAGE/surpriseYomi.png" />
+      <p id="ushiro" onclick="modal3();modaloff2();">→</p>
+    </section>
+
+    <img class="cryShiro" src="../IMAGE/cryShiro.png" />
+    <div id="cryShiro" class="cryShiroOver" onclick="modal3()"></div>
+    <div id="mask"></div>
+    <section id="modal3" class="modal">
+      <p id="close" onclick="modaloff3();">戻</p>
+      <p id="mae" onclick="modal2();modaloff3();">←</p>
+      <img id="surpriseYomihidden" src="../IMAGE/cryShiro.png" />
+      <p id="ushiro" onclick="modal();modaloff3();">→</p>
+    </section>
     <!-------------------------Common part------------------------->
     <script src="../JS/header.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>

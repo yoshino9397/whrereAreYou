@@ -238,14 +238,20 @@ a {
   background: rgba(0, 0, 0, 0.733);
   position: fixed;
   padding: 0%;
-  margin: -20% 0 0 0;
+  margin: -21% 0 0 0;
   width: 100%;
-  height: 100%;
+  height: 102%;
   z-index: 10;
-  opacity: 1;
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 0;
 }
 
-#modal #close {
+.modal {
+  opacity: 0;
+}
+
+.modal #close {
   position: fixed;
   margin: -17% 0 0 83%;
   padding: 0%;
@@ -255,7 +261,7 @@ a {
   cursor: pointer;
 }
 
-#modal img {
+.modal img {
   position: fixed;
   width: 70%;
   margin: -12% 0 0 15%;
@@ -266,7 +272,7 @@ a {
   cursor: pointer;
 }
 
-#modal #mae {
+.modal #mae {
   position: fixed;
   margin: 2% 0 0 6%;
   padding: 0%;
@@ -276,7 +282,7 @@ a {
   cursor: pointer;
 }
 
-#modal #ushiro {
+.modal #ushiro {
   position: fixed;
   margin: 2% 0 0 90%;
   padding: 0%;
