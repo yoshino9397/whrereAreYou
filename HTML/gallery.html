@@ -129,7 +129,37 @@
       <p id="close" onclick="modaloff3();">戻</p>
       <p id="mae" onclick="modal2();modaloff3();">←</p>
       <img id="surpriseYomihidden" src="../IMAGE/cryShiro.png" />
-      <p id="ushiro" onclick="modal();modaloff3();">→</p>
+      <p id="ushiro" onclick="modal4();modaloff3();">→</p>
+    </section>
+
+    <img class="loneliness" src="../IMAGE/loneliness.png" />
+    <div id="loneliness" class="lonelinessOver" onclick="modal4()"></div>
+    <div id="mask"></div>
+    <section id="modal4" class="modal">
+      <p id="close" onclick="modaloff4();">戻</p>
+      <p id="mae" onclick="modal3();modaloff4();">←</p>
+      <img id="lonelinesshidden" src="../IMAGE/loneliness.png" />
+      <p id="ushiro" onclick="modal5();modaloff4();">→</p>
+    </section>
+
+    <img class="gagmori" src="../IMAGE/gagmori.png" />
+    <div id="gagmori" class="gagmoriOver" onclick="modal5()"></div>
+    <div id="mask"></div>
+    <section id="modal5" class="modal5">
+      <p id="close" onclick="modaloff5();">戻</p>
+      <p id="mae" onclick="modal4();modaloff5();">←</p>
+      <img id="gagmorihidden" src="../IMAGE/gagmori.png" />
+      <p id="ushiro" onclick="modal6();modaloff5();">→</p>
+    </section>
+
+    <img class="suicide" src="../IMAGE/suicide.png" />
+    <div id="suicide" class="suicideOver" onclick="modal6()"></div>
+    <div id="mask"></div>
+    <section id="modal6" class="modal">
+      <p id="close" onclick="modaloff6();">戻</p>
+      <p id="mae" onclick="modal5();modaloff6();">←</p>
+      <img id="suicidehidden" src="../IMAGE/suicide.png" />
+      <p id="ushiro" onclick="modal();modaloff6();">→</p>
     </section>
     <!-------------------------Common part------------------------->
     <script src="../JS/header.js"></script>
