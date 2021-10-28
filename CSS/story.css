@@ -254,11 +254,19 @@ a {
   z-index: 8;
 }
 
-.nikkiHide img {
+.nikkiHide .diary {
   position: absolute;
   margin: 6% 0 0 40%;
   padding: 0%;
   z-index: 8;
   width: 38%;
+}
+
+.nikkiHide .kaeru {
+  position: absolute;
+  margin: 20% 0 0 63%;
+  padding: 0%;
+  z-index: 8;
+  width: 18%;
 }
 /*# sourceMappingURL=story.css.map */

@@ -221,11 +221,18 @@ h1 {
     position: absolute;
     z-index: 8;
   }
-  img {
+  .diary {
     position: absolute;
     margin: 6% 0 0 40%;
     padding: 0%;
     z-index: 8;
     width: 38%;
+  }
+  .kaeru{
+    position: absolute;
+    margin: 20% 0 0 63%;
+    padding: 0%;
+    z-index: 8;
+    width: 18%;
   }
 }
