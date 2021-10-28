@@ -16,7 +16,7 @@ a {
   position: absolute;
   margin: -1% 0 0 11%;
   padding: 0%;
-  width: 74%;
+  width: 75%;
   height: 95%;
   z-index: 1;
 }
@@ -26,9 +26,9 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   color: rgba(240, 248, 255, 0);
-  height: 21%;
+  height: 20.3%;
   padding: 0%;
-  margin: 30% 0 0 93%;
+  margin: 26% 0 0 88%;
   position: absolute;
   z-index: 3;
 }
@@ -36,7 +36,7 @@ a {
 .specialAka {
   height: 29%;
   padding: 0%;
-  margin: 28% 0 0 91%;
+  margin: 23.5% 0 0 86%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -55,7 +55,7 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 21%;
   padding: 0%;
-  margin: 30% 0 0 89%;
+  margin: 10% 0 0 88%;
   position: absolute;
   z-index: 3;
 }
@@ -63,7 +63,7 @@ a {
 .galleryAka {
   height: 29%;
   padding: 0%;
-  margin: 28.5% 0 0 87%;
+  margin: 8% 0 0 86%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -82,7 +82,7 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 25%;
   padding: 0%;
-  margin: 30% 0 0 85%;
+  margin: 31.6% 0 0 93%;
   position: absolute;
   z-index: 3;
 }
@@ -90,7 +90,7 @@ a {
 .playAka {
   height: 30%;
   padding: 0%;
-  margin: 29% 0 0 83%;
+  margin: 30.6% 0 0 91%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -109,7 +109,7 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 22%;
   padding: 0%;
-  margin: 16% 0 0 91%;
+  margin: 16% 0 0 93%;
   position: absolute;
   z-index: 3;
 }
@@ -117,7 +117,7 @@ a {
 .charaAka {
   height: 28%;
   padding: 0%;
-  margin: 15% 0 0 89%;
+  margin: 15% 0 0 91%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -136,7 +136,7 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 24%;
   padding: 0%;
-  margin: 16% 0 0 87%;
+  margin: 0% 0 0 93%;
   position: absolute;
   z-index: 3;
 }
@@ -144,7 +144,7 @@ a {
 .storyAka {
   height: 30%;
   padding: 0%;
-  margin: 14.8% 0 0 85.8%;
+  margin: -1.4% 0 0 92%;
   position: absolute;
   z-index: 3;
   opacity: 0;
