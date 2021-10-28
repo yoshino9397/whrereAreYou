@@ -58,7 +58,7 @@ a {
   padding: 0%;
   position: absolute;
   z-index: 1;
-  height: 180%;
+  height: 200%;
 }
 
 .top {
@@ -178,6 +178,14 @@ a {
 
 .specialAka:hover {
   opacity: 1;
+}
+
+.irasuto {
+  position: absolute;
+  margin: -2% 0 0 37%;
+  padding: 0%;
+  width: 31%;
+  z-index: 9;
 }
 
 .juroSunset {
