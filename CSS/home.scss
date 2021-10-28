@@ -9,6 +9,16 @@ body {
 a {
   text-decoration: none;
 }
+.shugo{
+  position: absolute;
+  margin: -1% 0 0 11%;
+  padding: 0%;
+  width: 74%;
+  height: 95%;
+  z-index: 1;
+}
+
+
 .special {
   background-image: url(../IMAGE/homeSpecialBefore.png);
   background-repeat: no-repeat;
@@ -16,14 +26,14 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 21%;
   padding: 0%;
-  margin: 30% 0 0 80%;
+  margin: 30% 0 0 93%;
   position: absolute;
   z-index: 3;
 }
 .specialAka {
   height: 29%;
   padding: 0%;
-  margin: 28% 0 0 78%;
+  margin: 28% 0 0 91%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -39,14 +49,14 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 21%;
   padding: 0%;
-  margin: 30% 0 0 76%;
+  margin: 30% 0 0 89%;
   position: absolute;
   z-index: 3;
 }
 .galleryAka {
   height: 29%;
   padding: 0%;
-  margin: 28.5% 0 0 74%;
+  margin: 28.5% 0 0 87%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -62,14 +72,14 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 25%;
   padding: 0%;
-  margin: 30% 0 0 72%;
+  margin: 30% 0 0 85%;
   position: absolute;
   z-index: 3;
 }
 .playAka {
   height: 30%;
   padding: 0%;
-  margin: 29% 0 0 70%;
+  margin: 29% 0 0 83%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -85,14 +95,14 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 22%;
   padding: 0%;
-  margin: 30% 0 0 68%;
+  margin: 16% 0 0 91%;
   position: absolute;
   z-index: 3;
 }
 .charaAka {
   height: 28%;
   padding: 0%;
-  margin: 29% 0 0 66%;
+  margin: 15% 0 0 89%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -108,14 +118,14 @@ a {
   color: rgba(240, 248, 255, 0);
   height: 24%;
   padding: 0%;
-  margin: 30% 0 0 64%;
+  margin: 16% 0 0 87%;
   position: absolute;
   z-index: 3;
 }
 .storyAka {
   height: 30%;
   padding: 0%;
-  margin: 28.5% 0 0 62.8%;
+  margin: 14.8% 0 0 85.8%;
   position: absolute;
   z-index: 3;
   opacity: 0;
@@ -129,7 +139,7 @@ a {
 .news {
   .top {
     position: relative;
-    margin: 47% 0 0 20%;
+    margin: 54% 0 0 20%;
     padding: 0%;
     width: 50%;
   }
