@@ -296,6 +296,24 @@ a {
   cursor: pointer;
 }
 
+.minakamiend {
+  margin: 72% 0 0 22.2%;
+  padding: 0%;
+  position: absolute;
+  width: 28%;
+  z-index: 9;
+}
+
+.minakamiendOver {
+  margin: 72% 0 0 22.2%;
+  padding: 0%;
+  position: absolute;
+  width: 28%;
+  height: 26%;
+  z-index: 30;
+  cursor: pointer;
+}
+
 #mask {
   background: rgba(0, 0, 0, 0.733);
   position: fixed;
