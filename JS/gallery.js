@@ -46,3 +46,11 @@ function modaloff6() {
   document.getElementById("mask").style.opacity = "0";
   document.getElementById("modal6").style.opacity = "0";
 }
+function modal7() {
+  document.getElementById("modal7").style.opacity = "1";
+  document.getElementById("mask").style.opacity = "1";
+}
+function modaloff7() {
+  document.getElementById("mask").style.opacity = "0";
+  document.getElementById("modal7").style.opacity = "0";
+}
