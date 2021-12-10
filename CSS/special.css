@@ -136,6 +136,13 @@ a {
   margin: -7.5% 0 0 33%;
   padding: 0%;
   z-index: 210;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.storyAka:hover {
+  opacity: 1;
 }
 
 .play {
@@ -171,12 +178,5 @@ a {
   margin: -7.5% 0 0 70%;
   padding: 0%;
   z-index: 210;
-  opacity: 0;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-.specialAka:hover {
-  opacity: 1;
 }
 /*# sourceMappingURL=special.css.map */
