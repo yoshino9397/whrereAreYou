@@ -179,4 +179,79 @@ a {
   padding: 0%;
   z-index: 210;
 }
+
+.box1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  font-family: "Yuji Syuku", serif;
+  font-size: 1.5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+.box1 h1 {
+  color: #66083a;
+  font-family: "Ma Shan Zheng";
+  font-size: 2.3em;
+  padding: 0%;
+  margin-bottom: 2%;
+}
+
+.box1 p {
+  padding: 0%;
+  margin: 0%;
+}
+
+.box1 p span {
+  color: #66083a;
+  font-weight: bolder;
+}
+
+.box2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  font-family: "Yuji Syuku", serif;
+  font-size: 1.5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+.box2 h4 {
+  font-size: 1.2em;
+  padding: 0%;
+  margin: 5% 0% 2% 0;
+}
+
+.box2 p {
+  padding: 0%;
+  margin-top: 1%;
+}
+
+.box2 ul {
+  margin: 0%;
+  padding: 0;
+}
+
+.box2 ul li {
+  padding: 0%;
+  margin: 0%;
+}
 /*# sourceMappingURL=special.css.map */
