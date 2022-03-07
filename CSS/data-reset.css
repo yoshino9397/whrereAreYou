@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*========= レイアウトのためのCSS ===============*/
+p {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.2em;
+}
+
+/*==================================================
+ランダムにテキスト出現する
+===================================*/
+.TextRandomAnime span {
+  opacity: 0;
+}
+
+.TextRandomAnime.appearRandomtext span {
+  -webkit-animation: text_randomanime_on 0.5s ease-out forwards;
+          animation: text_randomanime_on 0.5s ease-out forwards;
+}
+
+/*アニメーションで透過を0から1に変化させる*/
+@-webkit-keyframes text_randomanime_on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes text_randomanime_on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.TextRandomAnime.appearRandomtext span:nth-child(2n) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /* spanのついた2の倍数の文字列の変化を0.5秒遅らせる*/
+}
+
+.TextRandomAnime.appearRandomtext span:nth-child(3n + 1) {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  /* spanのついた3の倍数＋1の文字列の変化を0.15秒遅らせる*/
+}
+/*# sourceMappingURL=data-reset.css.map */
